@@ -4,44 +4,44 @@ using UnityEngine;
 
 public class PlayerAnimationTest : MonoBehaviour
 {    
-    public float xInput;
-    public float yInput;
-    public bool isWalking;
-    public bool isRunning;
-    public bool isIdle;
-    public bool isCarrying;
-    public ToolEffect toolEffect;
-    public bool isUsingToolRight;
-    public bool isUsingToolLeft;
-    public bool isUsingToolUp;
-    public bool isUsingToolDown;
-    public bool isLiftingToolRight;
-    public bool isLiftingToolLeft;
-    public bool isLiftingToolUp;
-    public bool isLiftingToolDown;
-    public bool isSwingingToolRight;
-    public bool isSwingingToolLeft;
-    public bool isSwingingToolUp;
-    public bool isSwingingToolDown;
-    public bool isPickingRight;
-    public bool isPickingLeft;
-    public bool isPickingUp;
-    public bool isPickingDown;    
-    public bool idleUp;
-    public bool idleDown;
-    public bool idleRight;
-    public bool idleLeft;
+    public float m_XInput;
+    public float m_YInput;
+    public bool m_IsWalking;
+    public bool m_IsRunning;
+    public bool m_IsIdle;
+    public bool m_IsCarrying;
+    public ToolEffect m_ToolEffect;
+    public bool m_IsUsingToolRight;
+    public bool m_IsUsingToolLeft;
+    public bool m_IsUsingToolUp;
+    public bool m_IsUsingToolDown;
+    public bool m_IsLiftingToolRight;
+    public bool m_IsLiftingToolLeft;
+    public bool m_IsLiftingToolUp;
+    public bool m_IsLiftingToolDown;
+    public bool m_IsSwingingToolRight;
+    public bool m_IsSwingingToolLeft;
+    public bool m_IsSwingingToolUp;
+    public bool m_IsSwingingToolDown;
+    public bool m_IsPickingRight;
+    public bool m_IsPickingLeft;
+    public bool m_IsPickingUp;
+    public bool m_IsPickingDown;   
+    public bool m_IdleUp;
+    public bool m_IdleDown;
+    public bool m_IdleRight;
+    public bool m_IdleLeft;
 
     private void Update()
     {
-        EventHandler.CallMovementEvent( xInput, yInput,
-                                        isWalking, isRunning, isIdle, isCarrying,
-                                        toolEffect,
-                                        isUsingToolRight, isUsingToolLeft, isUsingToolUp, isUsingToolDown,
-                                        isLiftingToolRight, isLiftingToolLeft, isLiftingToolUp, isLiftingToolDown,
-                                        isPickingRight, isPickingLeft, isPickingUp, isPickingDown,
-                                        isSwingingToolRight, isSwingingToolLeft, isSwingingToolUp, isSwingingToolDown,
-                                        idleRight, idleLeft, idleUp, idleDown );
+        EventHandler.CallMovementEvent( m_XInput, m_YInput,
+                                        m_IsWalking, m_IsRunning, m_IsIdle, m_IsCarrying,
+                                        m_ToolEffect,
+                                        m_IsUsingToolRight, m_IsUsingToolLeft, m_IsUsingToolUp, m_IsUsingToolDown,
+                                        m_IsLiftingToolRight, m_IsLiftingToolLeft, m_IsLiftingToolUp, m_IsLiftingToolDown,
+                                        m_IsPickingRight, m_IsPickingLeft, m_IsPickingUp, m_IsPickingDown,
+                                        m_IsSwingingToolRight, m_IsSwingingToolLeft, m_IsSwingingToolUp, m_IsSwingingToolDown,
+                                        m_IdleRight, m_IdleLeft, m_IdleUp, m_IdleDown);
 
 
     }

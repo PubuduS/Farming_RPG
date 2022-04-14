@@ -20,7 +20,7 @@ public class MovementAnimationParameterControl : MonoBehaviour
     /// </summary>
     private void OnEnable()
     {
-        EventHandler.MovementEvent += SetAnimationParameters;
+        EventHandler.m_MovementEvent += SetAnimationParameters;
     }
 
     /// <summary>
@@ -28,7 +28,7 @@ public class MovementAnimationParameterControl : MonoBehaviour
     /// </summary>
     private void OnDisable()
     {
-        EventHandler.MovementEvent -= SetAnimationParameters;
+        EventHandler.m_MovementEvent -= SetAnimationParameters;
     }
 
     /// <summary>
@@ -43,81 +43,81 @@ public class MovementAnimationParameterControl : MonoBehaviour
                                           bool isSwingingToolRight, bool isSwingingToolLeft, bool isSwingingToolUp, bool isSwingingToolDown,
                                           bool idleRight, bool idleLeft, bool idleUp, bool idleDown )
     {
-        m_Animator.SetFloat( Settings.xInput, xInput );
-        m_Animator.SetFloat( Settings.yInput, yInput );
-        m_Animator.SetBool( Settings.isWalking, isWalking );
-        m_Animator.SetBool( Settings.isRunning, isRunning );
+        m_Animator.SetFloat( Settings.m_XInput, xInput );
+        m_Animator.SetFloat( Settings.m_YInput, yInput );
+        m_Animator.SetBool( Settings.m_IsWalking, isWalking );
+        m_Animator.SetBool( Settings.m_IsRunning, isRunning );
 
-        m_Animator.SetInteger( Settings.toolEffect, (int)toolEffect );
+        m_Animator.SetInteger( Settings.m_ToolEffect, (int)toolEffect );
 
         #region Tool        
         if ( isUsingToolRight )
-            m_Animator.SetTrigger( Settings.isUsingToolRight );
+            m_Animator.SetTrigger( Settings.m_IsUsingToolRight );
 
         if( isUsingToolLeft )
-            m_Animator.SetTrigger( Settings.isUsingToolLeft );
+            m_Animator.SetTrigger( Settings.m_IsUsingToolLeft );
 
         if ( isUsingToolUp )
-            m_Animator.SetTrigger( Settings.isUsingToolUp );
+            m_Animator.SetTrigger( Settings.m_IsUsingToolUp );
 
         if ( isUsingToolDown )
-            m_Animator.SetTrigger( Settings.isUsingToolDown );
+            m_Animator.SetTrigger( Settings.m_IsUsingToolDown );
         #endregion
 
         #region Lifting
         if ( isLiftingToolRight )
-            m_Animator.SetTrigger( Settings.isLiftingToolRight );
+            m_Animator.SetTrigger( Settings.m_IsLiftingToolRight );
 
         if ( isLiftingToolLeft )
-            m_Animator.SetTrigger( Settings.isLiftingToolLeft );
+            m_Animator.SetTrigger( Settings.m_IsLiftingToolLeft );
 
         if ( isLiftingToolUp )
-            m_Animator.SetTrigger( Settings.isLiftingToolUp );
+            m_Animator.SetTrigger( Settings.m_IsLiftingToolUp );
 
         if ( isLiftingToolDown )
-            m_Animator.SetTrigger( Settings.isLiftingToolDown );
+            m_Animator.SetTrigger( Settings.m_IsLiftingToolDown );
         #endregion
 
         #region Swing
         if ( isSwingingToolRight )
-            m_Animator.SetTrigger( Settings.isSwingingToolRight );
+            m_Animator.SetTrigger( Settings.m_IsSwingingToolRight );
 
         if ( isSwingingToolLeft )
-            m_Animator.SetTrigger( Settings.isSwingingToolLeft );
+            m_Animator.SetTrigger( Settings.m_IsSwingingToolLeft );
 
         if ( isSwingingToolUp )
-            m_Animator.SetTrigger( Settings.isSwingingToolUp );
+            m_Animator.SetTrigger( Settings.m_IsSwingingToolUp );
 
         if ( isSwingingToolDown )
-            m_Animator.SetTrigger( Settings.isSwingingToolDown );
+            m_Animator.SetTrigger( Settings.m_IsSwingingToolDown );
         #endregion
 
         #region Picking
         if ( isPickingRight )
-            m_Animator.SetTrigger( Settings.isPickingRight );
+            m_Animator.SetTrigger( Settings.m_IsPickingRight );
 
         if ( isPickingLeft )
-            m_Animator.SetTrigger( Settings.isPickingLeft );
+            m_Animator.SetTrigger( Settings.m_IsPickingLeft );
 
         if ( isPickingUp )
-            m_Animator.SetTrigger( Settings.isPickingUp );
+            m_Animator.SetTrigger( Settings.m_IsPickingUp );
 
         if ( isPickingDown )
-            m_Animator.SetTrigger( Settings.isPickingDown );
+            m_Animator.SetTrigger( Settings.m_IsPickingDown );
         #endregion
 
         #region Idle
         if ( idleUp )
-            m_Animator.SetTrigger( Settings.idleUp );
+            m_Animator.SetTrigger( Settings.m_IdleUp );
 
         if ( idleDown )
-            m_Animator.SetTrigger( Settings.idleDown );
+            m_Animator.SetTrigger( Settings.m_IdleDown );
 
         if ( idleLeft )
-            m_Animator.SetTrigger( Settings.idleLeft );
+            m_Animator.SetTrigger( Settings.m_IdleLeft );
 
         if ( idleRight )
-            m_Animator.SetTrigger( Settings.idleRight );
+            m_Animator.SetTrigger( Settings.m_IdleRight );
         #endregion
 
 

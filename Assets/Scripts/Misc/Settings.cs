@@ -4,66 +4,70 @@ using UnityEngine;
 
 public static class Settings
 {
+    // Player Movements
+    public const float m_RunningSpeed = 5.333f;
+    public const float m_WalkingSpeed = 2.666f;
+
     // Player Animation Parameters
-    public static int xInput;
-    public static int yInput;
-    public static int isWalking;
-    public static int isRunning;
-    public static int toolEffect;
-    public static int isUsingToolRight;
-    public static int isUsingToolLeft;
-    public static int isUsingToolUp;
-    public static int isUsingToolDown;
-    public static int isLiftingToolRight;
-    public static int isLiftingToolLeft;
-    public static int isLiftingToolUp;
-    public static int isLiftingToolDown;
-    public static int isSwingingToolRight;
-    public static int isSwingingToolLeft;
-    public static int isSwingingToolUp;
-    public static int isSwingingToolDown;
-    public static int isPickingRight;
-    public static int isPickingLeft;
-    public static int isPickingUp;
-    public static int isPickingDown;
+    public static int m_XInput;
+    public static int m_YInput;
+    public static int m_IsWalking;
+    public static int m_IsRunning;
+    public static int m_ToolEffect;
+    public static int m_IsUsingToolRight;
+    public static int m_IsUsingToolLeft;
+    public static int m_IsUsingToolUp;
+    public static int m_IsUsingToolDown;
+    public static int m_IsLiftingToolRight;
+    public static int m_IsLiftingToolLeft;
+    public static int m_IsLiftingToolUp;
+    public static int m_IsLiftingToolDown;
+    public static int m_IsSwingingToolRight;
+    public static int m_IsSwingingToolLeft;
+    public static int m_IsSwingingToolUp;
+    public static int m_IsSwingingToolDown;
+    public static int m_IsPickingRight;
+    public static int m_IsPickingLeft;
+    public static int m_IsPickingUp;
+    public static int m_IsPickingDown;
 
     // Shared Animation Parameters
-    public static int idleUp;
-    public static int idleDown;
-    public static int idleRight;
-    public static int idleLeft;
+    public static int m_IdleUp;
+    public static int m_IdleDown;
+    public static int m_IdleRight;
+    public static int m_IdleLeft;
 
     // static constructor
     static Settings()
     {
         // Player Animation Parameters
-        xInput = Animator.StringToHash("xInput");
-        yInput = Animator.StringToHash("yInput");
-        isWalking = Animator.StringToHash("isWalking");
-        isRunning = Animator.StringToHash("isRunning");
-        toolEffect = Animator.StringToHash("toolEffect");
-        isUsingToolRight = Animator.StringToHash("isUsingToolRight");
-        isUsingToolLeft = Animator.StringToHash("isUsingToolLeft");
-        isUsingToolUp = Animator.StringToHash("isUsingToolUp");
-        isUsingToolDown = Animator.StringToHash("isUsingToolDown");
-        isLiftingToolRight = Animator.StringToHash("isLiftingToolRight");
-        isLiftingToolLeft = Animator.StringToHash("isLiftingToolLeft");
-        isLiftingToolUp = Animator.StringToHash("isLiftingToolUp");
-        isLiftingToolDown = Animator.StringToHash("isLiftingToolDown");
-        isSwingingToolRight = Animator.StringToHash("isSwingingToolRight");
-        isSwingingToolLeft = Animator.StringToHash("isSwingingToolLeft");
-        isSwingingToolUp = Animator.StringToHash("isSwingingToolUp");
-        isSwingingToolDown = Animator.StringToHash("isSwingingToolDown");
-        isPickingRight = Animator.StringToHash("isPickingRight");
-        isPickingLeft = Animator.StringToHash("isPickingLeft");
-        isPickingUp = Animator.StringToHash("isPickingUp");
-        isPickingDown = Animator.StringToHash("isPickingDown");
+        m_XInput = Animator.StringToHash("xInput");
+        m_YInput = Animator.StringToHash("yInput");
+        m_IsWalking = Animator.StringToHash("isWalking");
+        m_IsRunning = Animator.StringToHash("isRunning");
+        m_ToolEffect = Animator.StringToHash("toolEffect");
+        m_IsUsingToolRight = Animator.StringToHash("isUsingToolRight");
+        m_IsUsingToolLeft = Animator.StringToHash("isUsingToolLeft");
+        m_IsUsingToolUp = Animator.StringToHash("isUsingToolUp");
+        m_IsUsingToolDown = Animator.StringToHash("isUsingToolDown");
+        m_IsLiftingToolRight = Animator.StringToHash("isLiftingToolRight");
+        m_IsLiftingToolLeft = Animator.StringToHash("isLiftingToolLeft");
+        m_IsLiftingToolUp = Animator.StringToHash("isLiftingToolUp");
+        m_IsLiftingToolDown = Animator.StringToHash("isLiftingToolDown");
+        m_IsSwingingToolRight = Animator.StringToHash("isSwingingToolRight");
+        m_IsSwingingToolLeft = Animator.StringToHash("isSwingingToolLeft");
+        m_IsSwingingToolUp = Animator.StringToHash("isSwingingToolUp");
+        m_IsSwingingToolDown = Animator.StringToHash("isSwingingToolDown");
+        m_IsPickingRight = Animator.StringToHash("isPickingRight");
+        m_IsPickingLeft = Animator.StringToHash("isPickingLeft");
+        m_IsPickingUp = Animator.StringToHash("isPickingUp");
+        m_IsPickingDown = Animator.StringToHash("isPickingDown");
 
         // Shared Animation Parameters
-        idleUp = Animator.StringToHash("idleUp");
-        idleDown = Animator.StringToHash("idleDown");
-        idleLeft = Animator.StringToHash("idleLeft");
-        idleRight = Animator.StringToHash("idleRight");
+        m_IdleUp = Animator.StringToHash("idleUp");
+        m_IdleDown = Animator.StringToHash("idleDown");
+        m_IdleLeft = Animator.StringToHash("idleLeft");
+        m_IdleRight = Animator.StringToHash("idleRight");
     }
 
 }

@@ -420,7 +420,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 2.1771429, y: 1}
+    m_SensorSize: {x: 1.3333334, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -866,38 +866,38 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1379082222}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2e1673cbc8c49a5479a2eb84d0db428d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  xInput: 0
-  yInput: 0
-  isWalking: 0
-  isRunning: 0
-  isIdle: 0
-  isCarrying: 0
-  toolEffect: 0
-  isUsingToolRight: 0
-  isUsingToolLeft: 0
-  isUsingToolUp: 0
-  isUsingToolDown: 0
-  isLiftingToolRight: 0
-  isLiftingToolLeft: 0
-  isLiftingToolUp: 0
-  isLiftingToolDown: 0
-  isSwingingToolRight: 0
-  isSwingingToolLeft: 0
-  isSwingingToolUp: 0
-  isSwingingToolDown: 0
-  isPickingRight: 0
-  isPickingLeft: 0
-  isPickingUp: 0
-  isPickingDown: 0
-  idleUp: 0
-  idleDown: 0
-  idleRight: 0
-  idleLeft: 0
+  m_XInput: 0
+  m_YInput: 0
+  m_IsWalking: 0
+  m_IsRunning: 0
+  m_IsIdle: 0
+  m_IsCarrying: 0
+  m_ToolEffect: 0
+  m_IsUsingToolRight: 0
+  m_IsUsingToolLeft: 0
+  m_IsUsingToolUp: 0
+  m_IsUsingToolDown: 0
+  m_IsLiftingToolRight: 0
+  m_IsLiftingToolLeft: 0
+  m_IsLiftingToolUp: 0
+  m_IsLiftingToolDown: 0
+  m_IsSwingingToolRight: 0
+  m_IsSwingingToolLeft: 0
+  m_IsSwingingToolUp: 0
+  m_IsSwingingToolDown: 0
+  m_IsPickingRight: 0
+  m_IsPickingLeft: 0
+  m_IsPickingUp: 0
+  m_IsPickingDown: 0
+  m_IdleUp: 0
+  m_IdleDown: 0
+  m_IdleRight: 0
+  m_IdleLeft: 0
 --- !u!1 &1452212188
 GameObject:
   m_ObjectHideFlags: 3

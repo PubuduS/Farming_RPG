@@ -8,7 +8,7 @@
 public static class EventHandler
 {
     // Movement Event
-    public static event MovementDelegate MovementEvent;
+    public static event MovementDelegate m_MovementEvent;
 
     // Movement Event Call For Publishers
     public static void CallMovementEvent( float xInput, float yInput, 
@@ -20,9 +20,9 @@ public static class EventHandler
                                           bool isSwingingToolRight, bool isSwingingToolLeft, bool isSwingingToolUp, bool isSwingingToolDown,
                                           bool idleRight, bool idleLeft, bool idleUp, bool idleDown )
     {
-        if( MovementEvent != null )
+        if( m_MovementEvent != null )
         {
-            MovementEvent( xInput, yInput, isWalking, isRunning, isIdle, isCarrying,
+            m_MovementEvent( xInput, yInput, isWalking, isRunning, isIdle, isCarrying,
                            toolEffect, isUsingToolRight, isUsingToolLeft, isUsingToolUp, isUsingToolDown,
                            isLiftingToolRight, isLiftingToolLeft, isLiftingToolUp, isLiftingToolDown,
                            isPickingRight, isPickingLeft, isPickingUp, isPickingDown,
