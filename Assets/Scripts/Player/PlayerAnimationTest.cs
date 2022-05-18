@@ -2,6 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// This is just a test script to trigger and test animations.
+/// </summary>
 public class PlayerAnimationTest : MonoBehaviour
 {    
     public float m_XInput;

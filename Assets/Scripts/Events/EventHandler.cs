@@ -5,12 +5,15 @@
     bool isSwingingToolRight, bool isSwingingToolLeft, bool isSwingingToolUp, bool isSwingingToolDown,
     bool idleRight, bool idleLeft, bool idleUp, bool idleDown );
 
+/// <summary>
+/// Raise an handle event when a movement is triggered.
+/// </summary>
 public static class EventHandler
 {
-    // Movement Event
+    //! Movement Event
     public static event MovementDelegate m_MovementEvent;
 
-    // Movement Event Call For Publishers
+    //! Movement Event Call For Publishers
     public static void CallMovementEvent( float xInput, float yInput, 
                                           bool isWalking, bool isRunning, bool isIdle, bool isCarrying,
                                           ToolEffect toolEffect, 

@@ -2,6 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// Control and trigger animations based on the right moves.
+/// </summary>
 public class MovementAnimationParameterControl : MonoBehaviour
 {
 

@@ -1,6 +1,10 @@
 ﻿using UnityEngine;
 using Cinemachine;
 
+/// <summary>
+/// This class will confine the camera so
+/// that it won't go beyond the boundaries.
+/// </summary>
 public class SwitchConfineBoundingShape : MonoBehaviour
 {
     // Start is called before the first frame update
@@ -22,7 +26,7 @@ public class SwitchConfineBoundingShape : MonoBehaviour
         cinemachineConfiner.m_BoundingShape2D = polygonCollider2D;
 
         // Since the confiner bounds have changed need to call this to clear the cache.
-        cinemachineConfiner.InvalidatePathCache();
+        cinemachineConfiner.InvalidatePathCache(); 
     }
 
 }

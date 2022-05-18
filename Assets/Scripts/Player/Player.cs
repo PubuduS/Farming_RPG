@@ -1,5 +1,8 @@
 ﻿using UnityEngine;
 
+/// <summary>
+/// This class has all the things related to player
+/// </summary>
 public class Player : SingletonMonobehaviour<Player>
 {
     // Movement Parameters

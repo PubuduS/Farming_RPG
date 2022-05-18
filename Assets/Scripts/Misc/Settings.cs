@@ -2,13 +2,24 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// This class handle the game settings.
+/// </summary>
 public static class Settings
 {
-    // Player Movements
+
+    //! Obscuring Item Fading
+    public const float m_FadeInSeconds = 0.25f;
+    public const float m_FadeOutSeconds = 0.35f;
+
+    //! How it looks like after fading.
+    public const float m_TargetAlpha = 0.45f;
+
+    //! Player Movements
     public const float m_RunningSpeed = 5.333f;
     public const float m_WalkingSpeed = 2.666f;
 
-    // Player Animation Parameters
+    //! Player Animation Parameters
     public static int m_XInput;
     public static int m_YInput;
     public static int m_IsWalking;
@@ -31,13 +42,13 @@ public static class Settings
     public static int m_IsPickingUp;
     public static int m_IsPickingDown;
 
-    // Shared Animation Parameters
+    //! Shared Animation Parameters
     public static int m_IdleUp;
     public static int m_IdleDown;
     public static int m_IdleRight;
     public static int m_IdleLeft;
 
-    // static constructor
+    //! static constructor
     static Settings()
     {
         // Player Animation Parameters
