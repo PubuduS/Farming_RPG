@@ -1,4 +1,7 @@
-﻿public delegate void MovementDelegate( float xInput, float yInput, bool isWalking, bool isRunning, bool isIdle, bool isCarrying,
+﻿using System;
+using System.Collections.Generic;
+
+public delegate void MovementDelegate( float xInput, float yInput, bool isWalking, bool isRunning, bool isIdle, bool isCarrying,
     ToolEffect toolEffect, bool isUsingToolRight, bool isUsingToolLeft, bool isUsingToolUp, bool isUsingToolDown,
     bool isLiftingToolRight, bool isLiftingToolLeft, bool isLiftingToolUp, bool isLiftingToolDown,
     bool isPickingRight, bool isPickingLeft, bool isPickingUp, bool isPickingDown,
@@ -10,6 +13,23 @@
 /// </summary>
 public static class EventHandler
 {
+
+    //! Inventory Updated Event
+    public static event Action<InventoryLocation, List<InventoryItem>> m_InventoryUpdatedEvent;
+
+    /// <summary>
+    /// Update the event
+    /// </summary>
+    /// <param name="inventoryLocation"></param>
+    /// <param name="inventoryList"></param>
+    public static void CallInventoryUpdatedEvent( InventoryLocation inventoryLocation, List<InventoryItem> inventoryList )
+    {
+        if( m_InventoryUpdatedEvent != null )
+        {
+            m_InventoryUpdatedEvent( inventoryLocation, inventoryList );
+        }
+    }
+
     //! Movement Event
     public static event MovementDelegate m_MovementEvent;
 

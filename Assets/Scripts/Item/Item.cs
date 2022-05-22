@@ -2,6 +2,7 @@
 
 public class Item : MonoBehaviour
 {
+    [ItemCodeDescription]
     [SerializeField]
     private int m_ItemCode;
 
@@ -22,9 +23,26 @@ public class Item : MonoBehaviour
         }
     }
 
+    /// <summary>
+    /// At the start if we have a reapable item,
+    /// we add the item nudge class.
+    /// </summary>
+    /// <param name="itemCode"></param>
     public void Init( int itemCode )
-    {        
+    {
+        if( itemCode != 0 )
+        {
+            ItemCode = itemCode;
+
+            ItemDetails itemDetails = InventoryManager.Instance.GetItemDetails( ItemCode );
+
+            m_SpriteRenderer.sprite = itemDetails.m_ItemSprite;
+
+            // If item type is reapable then add nudgeable component
+            if( itemDetails.m_ItemType == ItemType.ReapableScenary )
+            {
+                gameObject.AddComponent<ItemNudge>();
+            }
+        }
     }
-
-
 }
