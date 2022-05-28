@@ -59,7 +59,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -274,6 +274,9 @@ MonoBehaviour:
     m_CanBeEaten: 0
     m_CanBeCarried: 0
   m_ItemQuantity: 0
+  m_InventoryBar: {fileID: 0}
+  m_ItemPrefab: {fileID: 3357323695046962423, guid: 3ea0466faba94c24193df70b017f34e3,
+    type: 3}
 --- !u!1 &7619539504345066294
 GameObject:
   m_ObjectHideFlags: 0
@@ -333,7 +336,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 0}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []

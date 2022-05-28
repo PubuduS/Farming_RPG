@@ -8,6 +8,9 @@ public class InventoryManager : SingletonMonobehaviour<InventoryManager>
 {
     private Dictionary<int, ItemDetails> m_ItemDetailsDictionary;
 
+    //! The index of the array is the inventory list, and the value is the item code.
+    private int[] m_SelectedInventoryItem;
+
     //! We have two inventory lists, one for player and other for chest.
     //! index 0 is for player.
     public List<InventoryItem>[] m_InventoryLists;
@@ -18,7 +21,7 @@ public class InventoryManager : SingletonMonobehaviour<InventoryManager>
     public int[] m_InventoryListCapacityIntArray;
 
     [SerializeField]
-    private SOItemList m_ItemList = null;    
+    private SOItemList m_ItemList = null;
 
     /// <summary>
     /// Create item details dictionary
@@ -35,6 +38,14 @@ public class InventoryManager : SingletonMonobehaviour<InventoryManager>
 
         // Create item details dictionary
         CreateItemDetailsDictionary();
+
+        // Initialize selected inventory item array
+        m_SelectedInventoryItem = new int[(int)InventoryLocation.Count];
+
+        for( int i = 0; i < m_SelectedInventoryItem.Length; i++ )
+        {
+            m_SelectedInventoryItem[i] = -1;
+        }
     }
 
     /// <summary>
@@ -141,7 +152,36 @@ public class InventoryManager : SingletonMonobehaviour<InventoryManager>
         // DebugPrintInventoryList( inventoryList );
     }
 
+    /// <summary>
+    /// Swap item at fromItem index with item at toItem index in inventoryLocation inventory list.
+    /// </summary>
+    /// <param name="inventoryLocation"></param>
+    /// <param name="fromItem"></param>
+    /// <param name="toItem"></param>
+    public void SwapInventoryItems( InventoryLocation inventoryLocation, int fromItem, int toItem )
+    {
+        // If fromItem index and toItemIndex are within the bounds of the list, not the same, and greater than or equal to zero
+        if( fromItem < m_InventoryLists[(int)inventoryLocation].Count && toItem < m_InventoryLists[(int)inventoryLocation].Count 
+            && fromItem != toItem && fromItem >= 0 && toItem >= 0 )
+        {
+            InventoryItem fromInventoryItem = m_InventoryLists[(int)inventoryLocation][fromItem];
+            InventoryItem toInventoryItem = m_InventoryLists[(int)inventoryLocation][toItem];
 
+            m_InventoryLists[(int)inventoryLocation][toItem] = fromInventoryItem;
+            m_InventoryLists[(int)inventoryLocation][fromItem] = toInventoryItem;
+
+            // Send event that inventory has been updated.
+            EventHandler.CallInventoryUpdatedEvent( inventoryLocation, m_InventoryLists[(int)inventoryLocation] );
+        }
+    }
+
+    /// <summary>
+    /// Clear the selected inventory item for inventory Location.
+    /// </summary>
+    public void ClearSelectedInventoryItem( InventoryLocation inventoryLocation )
+    {
+        m_SelectedInventoryItem[(int)inventoryLocation] = -1;
+    }
 
     /// <summary>
     /// Find if an itemCode is already in the inventory. Returns the item position
@@ -180,6 +220,102 @@ public class InventoryManager : SingletonMonobehaviour<InventoryManager>
         }
 
         return null;
+    }
+
+    /// <summary>
+    /// Return the desctiption of the item type.
+    /// </summary>
+    /// <param name="itemType"></param>
+    /// <returns></returns>
+    public string GetItemTypeDescription( ItemType itemType )
+    {
+        string itemTypeDescription;
+
+        switch( itemType )
+        {
+            case ItemType.BreakingTool:
+                itemTypeDescription = Settings.m_BreakingTool;
+                break;
+
+            case ItemType.ChoppingTool:
+                itemTypeDescription = Settings.m_ChoppingTool;
+                break;
+
+            case ItemType.HoeingTool:
+                itemTypeDescription = Settings.m_HoeingTool;
+                break;
+
+            case ItemType.ReapingTool:
+                itemTypeDescription = Settings.m_ReapingTool;
+                break;
+
+            case ItemType.WateringTool:
+                itemTypeDescription = Settings.m_WateringTool;
+                break;
+
+            case ItemType.CollectingTool:
+                itemTypeDescription = Settings.m_CollectingTool;
+                break;
+
+            default:
+                itemTypeDescription = itemType.ToString();
+                break;
+        }
+
+        return itemTypeDescription;
+    }
+
+    /// <summary>
+    /// Remove an item from the inventory, and create a gameobject at the position it was dropped
+    /// </summary>
+    public void RemoveItem( InventoryLocation inventoryLocation, int itemCode )
+    {
+        List<InventoryItem> inventoryList = m_InventoryLists[(int)inventoryLocation];
+
+        // Check if inventory already contains the item.
+        int itemPosition = FindItemInInventory( inventoryLocation, itemCode );
+
+        if( itemPosition != -1 )
+        {
+            RemoveItemAtPosition( inventoryList, itemCode, itemPosition );
+        }
+
+        // Send event that inventory has been updated
+        EventHandler.CallInventoryUpdatedEvent( inventoryLocation, m_InventoryLists[(int)inventoryLocation] );
+    }
+
+    /// <summary>
+    /// Remove an item from a specific position
+    /// </summary>
+    /// <param name="inventoryList"></param>
+    /// <param name="itemCode"></param>
+    /// <param name="position"></param>
+    private void RemoveItemAtPosition( List<InventoryItem> inventoryList, int itemCode, int position )
+    {
+        InventoryItem inventoryItem = new InventoryItem();
+
+        int quantity = inventoryList[position]._ItemQuantity - 1;
+
+        if( quantity > 0 )
+        {
+            inventoryItem._ItemQuantity = quantity;
+            inventoryItem._ItemCode = itemCode;
+            inventoryList[position] = inventoryItem;
+        }
+        else
+        {
+            inventoryList.RemoveAt(position);
+        }
+    }
+
+    /// <summary>
+    /// Set the selected inventory item for inventoryLocation to itemCode
+    /// </summary>
+    /// <param name="inventoryLocation"></param>
+    /// <param name="itemCode"></param>
+    public void SetSelectedInventoryItem( InventoryLocation inventoryLocation, int itemCode )
+    {
+        m_SelectedInventoryItem[(int)inventoryLocation] = itemCode;
     }
 
     /// <summary>
