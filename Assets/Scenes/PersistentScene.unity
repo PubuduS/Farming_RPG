@@ -719,7 +719,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 2.1771429, y: 1}
+    m_SensorSize: {x: 2.1866667, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -2353,6 +2353,7 @@ Transform:
   - {fileID: 1517173931}
   - {fileID: 844346857}
   - {fileID: 403351115}
+  - {fileID: 1801332084}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2710,7 +2711,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1517173930}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 1.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1379082225}
@@ -3033,6 +3034,75 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95a085e7f4b5dd7488905c2b651c6965, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1801332083
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1801332084}
+  - component: {fileID: 1801332085}
+  m_Layer: 0
+  m_Name: CharacterCustomiser
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1801332084
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1801332083}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1379082225}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1801332085
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1801332083}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7aac6df05695fdc44bc575223c797f5e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Character: {fileID: 1379082222}
+  m_SOAnimationTypeArray:
+  - {fileID: 11400000, guid: 86e4101b36c4e0947bfa914c712a9d53, type: 2}
+  - {fileID: 11400000, guid: 37a8d30e5808ba6448512165c673e024, type: 2}
+  - {fileID: 11400000, guid: a8fe8d71242f87a40b318e4b37aae75d, type: 2}
+  - {fileID: 11400000, guid: f43afefffd03f7041a9a88747847ab3c, type: 2}
+  - {fileID: 11400000, guid: baafe3e70ffb2c44c981bd66c65fe286, type: 2}
+  - {fileID: 11400000, guid: 034abcbb0850ce642a4c7010a21f3621, type: 2}
+  - {fileID: 11400000, guid: 0242fc359711f564cb82c473a063bfd9, type: 2}
+  - {fileID: 11400000, guid: 8547d2d8a63300040b93b92d3b8e75f1, type: 2}
+  - {fileID: 11400000, guid: 3fc94fe21d0ca6540a1ee19368f2b3c0, type: 2}
+  - {fileID: 11400000, guid: 8effcc7167b2f9b41887eb41ff41a5ad, type: 2}
+  - {fileID: 11400000, guid: 27258f7ab826a204cbe55249ee223fa5, type: 2}
+  - {fileID: 11400000, guid: 0cc352c78cde8194aa178a8f16f7a9a1, type: 2}
+  - {fileID: 11400000, guid: a42a385a3f90e4342ba9a7868b7e9517, type: 2}
+  - {fileID: 11400000, guid: 47f7f25e22b32564db9c7f82aa9b750b, type: 2}
+  - {fileID: 11400000, guid: 57d91eaa32d973349a21b7d706e28bb7, type: 2}
+  - {fileID: 11400000, guid: 9669969dab67ecd4895314597731d952, type: 2}
+  - {fileID: 11400000, guid: 5e75e13ce2be4214591581ef398d0412, type: 2}
+  - {fileID: 11400000, guid: 9b55065940eafbe469c41010dff70b8b, type: 2}
+  - {fileID: 11400000, guid: 6a854718ca988ea44b89bea5476c5e13, type: 2}
+  - {fileID: 11400000, guid: 58102dc699472644b846216e5f4aad24, type: 2}
+  - {fileID: 11400000, guid: 6e982520f1213434b94f472863f5d42a, type: 2}
+  - {fileID: 11400000, guid: 028fdc9b373958445b4f57de1a016a39, type: 2}
+  - {fileID: 11400000, guid: 2c844e302716a33499374bad70fbb163, type: 2}
+  - {fileID: 11400000, guid: 789716b7e84d2044294d7fd928c34d68, type: 2}
 --- !u!1 &1833278425
 GameObject:
   m_ObjectHideFlags: 0
@@ -3641,3 +3711,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d11bd7e8513d8b048bfe8ebd57691d77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_EquippedItemSpriteRenderer: {fileID: 1517173932}

@@ -1,10 +1,13 @@
-﻿using UnityEngine;
+﻿using System.Collections.Generic;
+using UnityEngine;
 
 /// <summary>
 /// This class has all the things related to player
 /// </summary>
 public class Player : SingletonMonobehaviour<Player>
 {
+    private AnimationOverrides m_AnimationOverrides;
+
     // Movement Parameters
     private float m_XInput;
     private float m_YInput;
@@ -33,8 +36,21 @@ public class Player : SingletonMonobehaviour<Player>
     private Camera m_MainCamera;
 
     private Rigidbody2D m_RigidBody2D;
+
+#pragma warning disable 414
     private Direction m_PlayerDirection;
+#pragma warning restore 414
+
+    private List<CharacterAttribute> m_CharacterAttributeCustomisationList;
+
     private float m_MovementSpeed;
+
+    [Tooltip("Should be populated in the prefab with the equipped item sprite renderer")]
+    [SerializeField] private SpriteRenderer m_EquippedItemSpriteRenderer = null;
+
+    // Player attributes that can be swapped
+    private CharacterAttribute m_ArmsCharacterAttribute;
+    private CharacterAttribute m_ToolCharacterAttribute;
 
     private bool m_PlayerInputIsDisabled = false;
 
@@ -51,6 +67,14 @@ public class Player : SingletonMonobehaviour<Player>
     {
         base.Awake();
         m_RigidBody2D = GetComponent<Rigidbody2D>();
+
+        m_AnimationOverrides = GetComponentInChildren<AnimationOverrides>();
+
+        // Initialize swappable character attributes
+        m_ArmsCharacterAttribute = new CharacterAttribute( CharacterPartAnimator.arms, PartVariantColor.NONE, PartVariantType.NONE );
+
+        // Initialize character attribute list
+        m_CharacterAttributeCustomisationList = new List<CharacterAttribute>();
 
         // Get a reference to the main camera
         m_MainCamera = Camera.main;
@@ -242,6 +266,46 @@ public class Player : SingletonMonobehaviour<Player>
     public void EnablePlayerInput()
     {
         PlayerInputIsDisabled = false;
+    }
+
+    /// <summary>
+    /// Clear the carry animation
+    /// </summary>
+    public void ClearCarriedItem()
+    {
+        m_EquippedItemSpriteRenderer.sprite = null;
+        m_EquippedItemSpriteRenderer.color = new Color( 1f, 1f, 1f, 0f );
+
+        // Apply base character arms customisation.
+        m_ArmsCharacterAttribute.partVariantType = PartVariantType.NONE;
+        m_CharacterAttributeCustomisationList.Clear();
+        m_CharacterAttributeCustomisationList.Add( m_ArmsCharacterAttribute );
+        m_AnimationOverrides.ApplyCharacterCustomisationParameters( m_CharacterAttributeCustomisationList );
+
+        m_IsCarrying = false;
+    }
+
+    /// <summary>
+    /// Show the carried item.
+    /// </summary>
+    /// <param name="itemCode"></param>
+    public void ShowCarriedItem( int itemCode )
+    {
+        ItemDetails itemDetails = InventoryManager.Instance.GetItemDetails( itemCode );
+
+        if( itemDetails != null )
+        {
+            m_EquippedItemSpriteRenderer.sprite = itemDetails.m_ItemSprite;
+            m_EquippedItemSpriteRenderer.color = new Color( 1f, 1f, 1f, 1f );
+
+            // Apply 'carry' character arms customisation
+            m_ArmsCharacterAttribute.partVariantType = PartVariantType.CARRY;
+            m_CharacterAttributeCustomisationList.Clear();
+            m_CharacterAttributeCustomisationList.Add( m_ArmsCharacterAttribute );
+            m_AnimationOverrides.ApplyCharacterCustomisationParameters( m_CharacterAttributeCustomisationList );
+
+            m_IsCarrying = true;
+        }
     }
 
     /// <summary>
