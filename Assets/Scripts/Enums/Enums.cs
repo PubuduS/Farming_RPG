@@ -99,6 +99,19 @@ public enum InventoryLocation
 }
 
 /// <summary>
+/// Used for time mechanism
+/// </summary>
+public enum Season
+{
+    Spring,
+    Summer,
+    Autumn,
+    Winter,
+    None,
+    Count
+}
+
+/// <summary>
 /// Describes the tool effect
 /// </summary>
 public enum ToolEffect

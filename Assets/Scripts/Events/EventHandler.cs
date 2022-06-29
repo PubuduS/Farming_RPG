@@ -53,4 +53,121 @@ public static class EventHandler
                            idleRight, idleLeft, idleUp, idleDown );
         }
     }
+
+    //! Time events
+
+    /// <summary>
+    /// Advance game minutes
+    /// </summary>
+    public static event Action<int, Season, int, string, int, int, int> AdvanceGameMinuteEvent;
+
+    /// <summary>
+    /// Call the event AdvanceGameMinuteEvent
+    /// </summary>
+    /// <param name="gameYear"></param>
+    /// <param name="gameSeason"></param>
+    /// <param name="gameDay"></param>
+    /// <param name="gameDayOfWeek"></param>
+    /// <param name="gameHour"></param>
+    /// <param name="gameMinute"></param>
+    /// <param name="gameSecond"></param>
+    public static void CallAdvanceGameMinuteEvent( int gameYear, Season gameSeason, int gameDay, string gameDayOfWeek, int gameHour, int gameMinute, int gameSecond )
+    {
+        if( AdvanceGameMinuteEvent != null )
+        {
+            AdvanceGameMinuteEvent( gameYear, gameSeason, gameDay, gameDayOfWeek, gameHour, gameMinute, gameSecond );
+        }
+    }
+
+    /// <summary>
+    /// Advance game hours
+    /// </summary>
+    public static event Action<int, Season, int, string, int, int, int> AdvanceGameHourEvent;
+
+    /// <summary>
+    /// Call the event AdvanceGameHourEvent
+    /// </summary>
+    /// <param name="gameYear"></param>
+    /// <param name="gameSeason"></param>
+    /// <param name="gameDay"></param>
+    /// <param name="gameDayOfWeek"></param>
+    /// <param name="gameHour"></param>
+    /// <param name="gameMinute"></param>
+    /// <param name="gameSecond"></param>
+    public static void CallAdvanceGameHourEvent( int gameYear, Season gameSeason, int gameDay, string gameDayOfWeek, int gameHour, int gameMinute, int gameSecond )
+    {
+        if( AdvanceGameHourEvent != null )
+        {
+            AdvanceGameHourEvent( gameYear, gameSeason, gameDay, gameDayOfWeek, gameHour, gameMinute, gameSecond );
+        }
+    }
+
+    /// <summary>
+    /// Advance game days
+    /// </summary>
+    public static event Action<int, Season, int, string, int, int, int> AdvanceGameDayEvent;
+
+    /// <summary>
+    /// Call the event AdvanceGameDayEvent
+    /// </summary>
+    /// <param name="gameYear"></param>
+    /// <param name="gameSeason"></param>
+    /// <param name="gameDay"></param>
+    /// <param name="gameDayOfWeek"></param>
+    /// <param name="gameHour"></param>
+    /// <param name="gameMinute"></param>
+    /// <param name="gameSecond"></param>
+    public static void CallAdvanceGameDayEvent( int gameYear, Season gameSeason, int gameDay, string gameDayOfWeek, int gameHour, int gameMinute, int gameSecond )
+    {
+        if( AdvanceGameDayEvent != null )
+        {
+            AdvanceGameDayEvent( gameYear, gameSeason, gameDay, gameDayOfWeek, gameHour, gameMinute, gameSecond );
+        }
+    }
+
+    /// <summary>
+    /// Advance game season
+    /// </summary>
+    public static event Action<int, Season, int, string, int, int, int> AdvanceGameSeasonEvent;
+
+    /// <summary>
+    /// Call the event AdvanceGameSeasonEvent
+    /// </summary>
+    /// <param name="gameYear"></param>
+    /// <param name="gameSeason"></param>
+    /// <param name="gameDay"></param>
+    /// <param name="gameDayOfWeek"></param>
+    /// <param name="gameHour"></param>
+    /// <param name="gameMinute"></param>
+    /// <param name="gameSecond"></param>
+    public static void CallAdvanceGameSeasonEvent( int gameYear, Season gameSeason, int gameDay, string gameDayOfWeek, int gameHour, int gameMinute, int gameSecond )
+    {
+        if( AdvanceGameSeasonEvent != null )
+        {
+            AdvanceGameSeasonEvent( gameYear, gameSeason, gameDay, gameDayOfWeek, gameHour, gameMinute, gameSecond );
+        }
+    }
+
+    /// <summary>
+    /// Advance game year
+    /// </summary>
+    public static event Action<int, Season, int, string, int, int, int> AdvanceGameYearEvent;
+
+    /// <summary>
+    /// Call the event AdvanceGameYearEvent
+    /// </summary>
+    /// <param name="gameYear"></param>
+    /// <param name="gameSeason"></param>
+    /// <param name="gameDay"></param>
+    /// <param name="gameDayOfWeek"></param>
+    /// <param name="gameHour"></param>
+    /// <param name="gameMinute"></param>
+    /// <param name="gameSecond"></param>
+    public static void CallAdvanceGameYearEvent( int gameYear, Season gameSeason, int gameDay, string gameDayOfWeek, int gameHour, int gameMinute, int gameSecond )
+    {
+        if( AdvanceGameYearEvent != null )
+        {
+            AdvanceGameYearEvent( gameYear, gameSeason, gameDay, gameDayOfWeek, gameHour, gameMinute, gameSecond );
+        }
+    }
 }
