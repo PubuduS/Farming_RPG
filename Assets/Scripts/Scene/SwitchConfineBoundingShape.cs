@@ -7,10 +7,21 @@ using Cinemachine;
 /// </summary>
 public class SwitchConfineBoundingShape : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    
+    /// <summary>
+    /// Subscribe to the AfterSceneLoadEvent event.
+    /// </summary>
+    private void OnEnable()
     {
-        SwitchBoundingShape();
+        EventHandler.AfterSceneLoadEvent += SwitchBoundingShape;
+    }
+
+    /// <summary>
+    /// Unsubscribe from the AfterSceneLoadEvent event.
+    /// </summary>
+    private void OnDisable()
+    {
+        EventHandler.AfterSceneLoadEvent -= SwitchBoundingShape;
     }
 
     /// <summary>

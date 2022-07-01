@@ -36,18 +36,38 @@ public class UIInventorySlot : MonoBehaviour, IBeginDragHandler, IDragHandler, I
     [SerializeField]
     private int m_SlotNumber = 0;
 
+    /// <summary>
+    /// Get called when the script is loaded.
+    /// Initialize the parent canvas.
+    /// </summary>
     private void Awake()
     {
         m_ParentCanvas = GetComponentInParent<Canvas>();
     }
 
     /// <summary>
-    /// 
+    /// Unsubscribe from the AfterSceneLoadEvent event.
+    /// </summary>
+    private void OnDisable()
+    {
+        EventHandler.AfterSceneLoadEvent -= SceneLoaded;
+    }
+
+    /// <summary>
+    /// Subscribe to the AfterSceneLoadEvent event.
+    /// </summary>
+    private void OnEnable()
+    {
+        EventHandler.AfterSceneLoadEvent += SceneLoaded;
+    }
+
+    /// <summary>
+    /// Call after the awake
+    /// Initialize main camera.
     /// </summary>
     private void Start()
     {
-        m_MainCamera = Camera.main;
-        m_ParentItem = GameObject.FindGameObjectWithTag(Tags.ItemsParentTransform).transform;
+        m_MainCamera = Camera.main;        
     }
 
     /// <summary>
@@ -268,5 +288,14 @@ public class UIInventorySlot : MonoBehaviour, IBeginDragHandler, IDragHandler, I
         {
             Destroy( m_InventoryBar.m_InventoryTextBoxGameObject );
         }
+    }
+
+    /// <summary>
+    /// When we add a new scene, we lost the previous game object and therefore need to find it again.
+    /// Otherwise, we can't throw items from inventory to ground.
+    /// </summary>
+    public void SceneLoaded()
+    {
+        m_ParentItem = GameObject.FindGameObjectWithTag( Tags.ItemsParentTransform ).transform;
     }
 }

@@ -22,11 +22,11 @@ public static class EventHandler
     /// </summary>
     /// <param name="inventoryLocation"></param>
     /// <param name="inventoryList"></param>
-    public static void CallInventoryUpdatedEvent( InventoryLocation inventoryLocation, List<InventoryItem> inventoryList )
+    public static void CallInventoryUpdatedEvent(InventoryLocation inventoryLocation, List<InventoryItem> inventoryList)
     {
-        if( m_InventoryUpdatedEvent != null )
+        if (m_InventoryUpdatedEvent != null)
         {
-            m_InventoryUpdatedEvent( inventoryLocation, inventoryList );
+            m_InventoryUpdatedEvent(inventoryLocation, inventoryList);
         }
     }
 
@@ -34,23 +34,23 @@ public static class EventHandler
     public static event MovementDelegate m_MovementEvent;
 
     //! Movement Event Call For Publishers
-    public static void CallMovementEvent( float xInput, float yInput, 
+    public static void CallMovementEvent(float xInput, float yInput,
                                           bool isWalking, bool isRunning, bool isIdle, bool isCarrying,
-                                          ToolEffect toolEffect, 
+                                          ToolEffect toolEffect,
                                           bool isUsingToolRight, bool isUsingToolLeft, bool isUsingToolUp, bool isUsingToolDown,
                                           bool isLiftingToolRight, bool isLiftingToolLeft, bool isLiftingToolUp, bool isLiftingToolDown,
                                           bool isPickingRight, bool isPickingLeft, bool isPickingUp, bool isPickingDown,
                                           bool isSwingingToolRight, bool isSwingingToolLeft, bool isSwingingToolUp, bool isSwingingToolDown,
-                                          bool idleRight, bool idleLeft, bool idleUp, bool idleDown )
+                                          bool idleRight, bool idleLeft, bool idleUp, bool idleDown)
     {
-        if( m_MovementEvent != null )
+        if (m_MovementEvent != null)
         {
-            m_MovementEvent( xInput, yInput, isWalking, isRunning, isIdle, isCarrying,
+            m_MovementEvent(xInput, yInput, isWalking, isRunning, isIdle, isCarrying,
                            toolEffect, isUsingToolRight, isUsingToolLeft, isUsingToolUp, isUsingToolDown,
                            isLiftingToolRight, isLiftingToolLeft, isLiftingToolUp, isLiftingToolDown,
                            isPickingRight, isPickingLeft, isPickingUp, isPickingDown,
                            isSwingingToolRight, isSwingingToolLeft, isSwingingToolUp, isSwingingToolDown,
-                           idleRight, idleLeft, idleUp, idleDown );
+                           idleRight, idleLeft, idleUp, idleDown);
         }
     }
 
@@ -71,11 +71,11 @@ public static class EventHandler
     /// <param name="gameHour"></param>
     /// <param name="gameMinute"></param>
     /// <param name="gameSecond"></param>
-    public static void CallAdvanceGameMinuteEvent( int gameYear, Season gameSeason, int gameDay, string gameDayOfWeek, int gameHour, int gameMinute, int gameSecond )
+    public static void CallAdvanceGameMinuteEvent(int gameYear, Season gameSeason, int gameDay, string gameDayOfWeek, int gameHour, int gameMinute, int gameSecond)
     {
-        if( AdvanceGameMinuteEvent != null )
+        if (AdvanceGameMinuteEvent != null)
         {
-            AdvanceGameMinuteEvent( gameYear, gameSeason, gameDay, gameDayOfWeek, gameHour, gameMinute, gameSecond );
+            AdvanceGameMinuteEvent(gameYear, gameSeason, gameDay, gameDayOfWeek, gameHour, gameMinute, gameSecond);
         }
     }
 
@@ -94,11 +94,11 @@ public static class EventHandler
     /// <param name="gameHour"></param>
     /// <param name="gameMinute"></param>
     /// <param name="gameSecond"></param>
-    public static void CallAdvanceGameHourEvent( int gameYear, Season gameSeason, int gameDay, string gameDayOfWeek, int gameHour, int gameMinute, int gameSecond )
+    public static void CallAdvanceGameHourEvent(int gameYear, Season gameSeason, int gameDay, string gameDayOfWeek, int gameHour, int gameMinute, int gameSecond)
     {
-        if( AdvanceGameHourEvent != null )
+        if (AdvanceGameHourEvent != null)
         {
-            AdvanceGameHourEvent( gameYear, gameSeason, gameDay, gameDayOfWeek, gameHour, gameMinute, gameSecond );
+            AdvanceGameHourEvent(gameYear, gameSeason, gameDay, gameDayOfWeek, gameHour, gameMinute, gameSecond);
         }
     }
 
@@ -117,11 +117,11 @@ public static class EventHandler
     /// <param name="gameHour"></param>
     /// <param name="gameMinute"></param>
     /// <param name="gameSecond"></param>
-    public static void CallAdvanceGameDayEvent( int gameYear, Season gameSeason, int gameDay, string gameDayOfWeek, int gameHour, int gameMinute, int gameSecond )
+    public static void CallAdvanceGameDayEvent(int gameYear, Season gameSeason, int gameDay, string gameDayOfWeek, int gameHour, int gameMinute, int gameSecond)
     {
-        if( AdvanceGameDayEvent != null )
+        if (AdvanceGameDayEvent != null)
         {
-            AdvanceGameDayEvent( gameYear, gameSeason, gameDay, gameDayOfWeek, gameHour, gameMinute, gameSecond );
+            AdvanceGameDayEvent(gameYear, gameSeason, gameDay, gameDayOfWeek, gameHour, gameMinute, gameSecond);
         }
     }
 
@@ -140,11 +140,11 @@ public static class EventHandler
     /// <param name="gameHour"></param>
     /// <param name="gameMinute"></param>
     /// <param name="gameSecond"></param>
-    public static void CallAdvanceGameSeasonEvent( int gameYear, Season gameSeason, int gameDay, string gameDayOfWeek, int gameHour, int gameMinute, int gameSecond )
+    public static void CallAdvanceGameSeasonEvent(int gameYear, Season gameSeason, int gameDay, string gameDayOfWeek, int gameHour, int gameMinute, int gameSecond)
     {
-        if( AdvanceGameSeasonEvent != null )
+        if (AdvanceGameSeasonEvent != null)
         {
-            AdvanceGameSeasonEvent( gameYear, gameSeason, gameDay, gameDayOfWeek, gameHour, gameMinute, gameSecond );
+            AdvanceGameSeasonEvent(gameYear, gameSeason, gameDay, gameDayOfWeek, gameHour, gameMinute, gameSecond);
         }
     }
 
@@ -163,11 +163,78 @@ public static class EventHandler
     /// <param name="gameHour"></param>
     /// <param name="gameMinute"></param>
     /// <param name="gameSecond"></param>
-    public static void CallAdvanceGameYearEvent( int gameYear, Season gameSeason, int gameDay, string gameDayOfWeek, int gameHour, int gameMinute, int gameSecond )
+    public static void CallAdvanceGameYearEvent(int gameYear, Season gameSeason, int gameDay, string gameDayOfWeek, int gameHour, int gameMinute, int gameSecond)
     {
-        if( AdvanceGameYearEvent != null )
+        if (AdvanceGameYearEvent != null)
         {
-            AdvanceGameYearEvent( gameYear, gameSeason, gameDay, gameDayOfWeek, gameHour, gameMinute, gameSecond );
+            AdvanceGameYearEvent(gameYear, gameSeason, gameDay, gameDayOfWeek, gameHour, gameMinute, gameSecond);
         }
     }
+
+    // Scene Load Events - in the order they happen
+
+    /// <summary>
+    /// Before scene unload, fade out event
+    /// </summary>
+    public static event Action BeforeSceneUnloadFadeOutEvent;
+
+    /// <summary>
+    /// Call before scene unload, fade out event
+    /// </summary>
+    public static void CallBeforeSceneUnloadFadeOutEvent()
+    {
+        if( BeforeSceneUnloadFadeOutEvent != null )
+        {
+            BeforeSceneUnloadFadeOutEvent();
+        }
+    }
+
+    /// <summary>
+    /// Before scene unload event
+    /// </summary>
+    public static event Action BeforeSceneUnloadEvent;
+
+    /// <summary>
+    /// Call before scene unload event
+    /// </summary>
+    public static void CallBeforeSceneUnloadEvent()
+    {
+        if( BeforeSceneUnloadEvent != null )
+        {
+            BeforeSceneUnloadEvent();
+        }
+    }
+
+    /// <summary>
+    /// After scene load event
+    /// </summary>
+    public static event Action AfterSceneLoadEvent;
+
+    /// <summary>
+    ///  Call after scene load event
+    /// </summary>
+    public static void CallAfterSceneLoadEvent()
+    {
+        if( AfterSceneLoadEvent != null )
+        {
+            AfterSceneLoadEvent();
+        }
+    }
+
+    /// <summary>
+    /// After scene load fade in event
+    /// </summary>
+    public static event Action AfterSceneLoadFadeInEvent;
+
+    /// <summary>
+    /// Call after scene load fade in event
+    /// </summary>
+    public static void CallAfterSceneLoadFadeInEvent()
+    {
+        if( AfterSceneLoadFadeInEvent != null )
+        {
+            AfterSceneLoadFadeInEvent();
+        }
+    }
+
 }

@@ -99,6 +99,16 @@ public enum InventoryLocation
 }
 
 /// <summary>
+/// Describes different scenes.
+/// </summary>
+public enum SceneName
+{
+    Scene1_Farm,
+    Scene2_Filed,
+    Scene3_Cabin
+}
+
+/// <summary>
 /// Used for time mechanism
 /// </summary>
 public enum Season
