@@ -3341,7 +3341,7 @@ MonoBehaviour:
   m_FadeDuration: 1
   m_FaderCanvasGroup: {fileID: 1111739862}
   m_FaderImage: {fileID: 1111739860}
-  m_StartingSceneName: 0
+  m_StartingSceneName: 1
 --- !u!1 &1452212188
 GameObject:
   m_ObjectHideFlags: 3
