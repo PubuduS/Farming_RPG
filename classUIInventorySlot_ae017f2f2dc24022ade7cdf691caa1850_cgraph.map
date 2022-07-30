@@ -1,0 +1,4 @@
+<map id="UIInventorySlot.ClearSelectedItem" name="UIInventorySlot.ClearSelectedItem">
+<area shape="rect" id="node1" title="Clear currently highlighted items" alt="" coords="5,13,228,39"/>
+<area shape="rect" id="node2" href="$classUIInventoryBar.html#a38dc181fcc6d541b7ef1ab428f817936" title="Clear all highlights from the inventory bar." alt="" coords="276,5,469,47"/>
+</map>

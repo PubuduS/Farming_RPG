@@ -1,0 +1,4 @@
+<map id="UIInventorySlot.OnDisable" name="UIInventorySlot.OnDisable">
+<area shape="rect" id="node1" title="Unsubscribe from the AfterSceneLoadEvent event." alt="" coords="5,5,180,32"/>
+<area shape="rect" id="node2" href="$classUIInventorySlot.html#a6b03d93ba1a111e4593f1baf9df4dc1e" title="When we add a new scene, we lost the previous game object and therefore need to find it again...." alt="" coords="228,5,423,32"/>
+</map>

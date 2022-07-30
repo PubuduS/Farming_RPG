@@ -1,0 +1,4 @@
+<map id="SceneControllerManager" name="SceneControllerManager">
+<area shape="rect" id="node1" title="Manage the transition between scenes" alt="" coords="5,160,248,457"/>
+<area shape="rect" id="node2" href="$classSingletonMonobehaviour.html" title=" " alt="" coords="33,5,220,112"/>
+</map>

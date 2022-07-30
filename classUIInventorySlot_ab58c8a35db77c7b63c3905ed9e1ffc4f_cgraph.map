@@ -1,0 +1,7 @@
+<map id="UIInventorySlot.OnEndDrag" name="UIInventorySlot.OnEndDrag">
+<area shape="rect" id="node1" title="If item is droppable, drop the item otherwise destroy it." alt="" coords="5,34,187,60"/>
+<area shape="rect" id="node2" href="$classUIInventorySlot.html#ae017f2f2dc24022ade7cdf691caa1850" title="Clear currently highlighted items" alt="" coords="495,38,717,64"/>
+<area shape="rect" id="node4" href="$classUIInventorySlot.html#a0f4f2e40e52f8d155c17f8c43c26d4b4" title="Destroy gameobject when we hover away from the inventory slot." alt="" coords="235,26,447,68"/>
+<area shape="rect" id="node5" href="$classUIInventorySlot.html#a215fcdc6f1f503a097685e74a269068a" title="Drop the item (if selected) at the current mouse position. Called by drop item event" alt="" coords="244,92,437,133"/>
+<area shape="rect" id="node3" href="$classUIInventoryBar.html#a38dc181fcc6d541b7ef1ab428f817936" title="Clear all highlights from the inventory bar." alt="" coords="765,30,959,72"/>
+</map>

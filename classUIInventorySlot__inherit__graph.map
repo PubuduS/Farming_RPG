@@ -1,0 +1,10 @@
+<map id="UIInventorySlot" name="UIInventorySlot">
+<area shape="rect" id="node1" title=" " alt="" coords="367,131,590,751"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,5,117,83"/>
+<area shape="rect" id="node3" title=" " alt="" coords="141,5,272,83"/>
+<area shape="rect" id="node4" title=" " alt="" coords="296,5,395,83"/>
+<area shape="rect" id="node5" title=" " alt="" coords="419,5,539,83"/>
+<area shape="rect" id="node6" title=" " alt="" coords="563,5,706,83"/>
+<area shape="rect" id="node7" title=" " alt="" coords="731,5,864,83"/>
+<area shape="rect" id="node8" title=" " alt="" coords="888,5,1029,83"/>
+</map>

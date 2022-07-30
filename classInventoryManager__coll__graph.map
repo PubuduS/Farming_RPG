@@ -1,0 +1,6 @@
+<map id="InventoryManager" name="InventoryManager">
+<area shape="rect" id="node1" title="This class will manage all the inventory related operations." alt="" coords="29,301,255,1024"/>
+<area shape="rect" id="node2" href="$classSingletonMonobehaviour.html" title=" " alt="" coords="5,132,169,239"/>
+<area shape="rect" id="node3" href="$classSOItemList.html" title=" " alt="" coords="193,139,336,231"/>
+<area shape="rect" id="node4" title=" " alt="" coords="205,5,324,83"/>
+</map>

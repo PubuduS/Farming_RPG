@@ -1,0 +1,5 @@
+<map id="UIInventorySlot.DropSelectedItemAtMousePosition" name="UIInventorySlot.DropSelectedItemAtMousePosition">
+<area shape="rect" id="node1" title="Drop the item (if selected) at the current mouse position. Called by drop item event" alt="" coords="5,5,199,47"/>
+<area shape="rect" id="node2" href="$classUIInventorySlot.html#ae017f2f2dc24022ade7cdf691caa1850" title="Clear currently highlighted items" alt="" coords="247,13,469,39"/>
+<area shape="rect" id="node3" href="$classUIInventoryBar.html#a38dc181fcc6d541b7ef1ab428f817936" title="Clear all highlights from the inventory bar." alt="" coords="517,5,711,47"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="Player.Update" name="Player.Update">
+<area shape="rect" id="node1" title="Handle movement inputs and publish animation events." alt="" coords="5,122,108,149"/>
+<area shape="rect" id="node2" href="$classEventHandler.html#a0dbfda1850db6f0a440312737b8b3e78" title="Movement Event Call For Publishers." alt="" coords="159,5,346,47"/>
+<area shape="rect" id="node3" href="$classPlayer.html#a955db903d18c464eec5f095ef610d274" title="Handle player inputs and normalized that." alt="" coords="159,71,346,98"/>
+<area shape="rect" id="node4" href="$classPlayer.html#ad53631c29c00a800c761824285b426ca" title="TODO: Remove before final product." alt="" coords="177,122,329,149"/>
+<area shape="rect" id="node5" href="$classPlayer.html#a7c0282211fdc90a970b981019a68470e" title="Handle player walk inputs." alt="" coords="175,173,330,199"/>
+<area shape="rect" id="node6" href="$classPlayer.html#aab9c7aa4cc02a540d2a4d9b45af9dd38" title="Reset the animation triggers." alt="" coords="156,223,349,250"/>
+</map>

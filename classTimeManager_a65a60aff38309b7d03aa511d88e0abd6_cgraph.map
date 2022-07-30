@@ -1,0 +1,10 @@
+<map id="TimeManager.GameTick" name="TimeManager.GameTick">
+<area shape="rect" id="node1" title="Convert delta time to ingame seconds." alt="" coords="5,177,169,203"/>
+<area shape="rect" id="node2" href="$classTimeManager.html#ae4982ef9edfe8d6586ffd233403b6590" title="Handles the progression of time." alt="" coords="217,177,443,203"/>
+<area shape="rect" id="node3" href="$classEventHandler.html#a552a807cecc01417d1a4e986f4e36e9a" title="Call the event AdvanceGameDayEvent" alt="" coords="500,5,676,47"/>
+<area shape="rect" id="node4" href="$classEventHandler.html#a797ef284092b5c10f0d886f8a76a5747" title="Call the event AdvanceGameHourEvent" alt="" coords="500,71,676,112"/>
+<area shape="rect" id="node5" href="$classEventHandler.html#a26e4a5b4c422ea8655bf42af4fa21fa2" title="Call the event AdvanceGameMinuteEvent" alt="" coords="500,136,676,177"/>
+<area shape="rect" id="node6" href="$classEventHandler.html#a9f8cde072416dc5d3725dd3af16cf55f" title="Call the event AdvanceGameSeasonEvent" alt="" coords="500,201,676,243"/>
+<area shape="rect" id="node7" href="$classEventHandler.html#ac93eac69ecaa1b82418e48b33c4d7a48" title="Call the event AdvanceGameYearEvent" alt="" coords="500,267,676,308"/>
+<area shape="rect" id="node8" href="$classTimeManager.html#af36d290e9c3b68bfba7b7b0dc83f8961" title="Return the day of the week" alt="" coords="491,333,685,359"/>
+</map>

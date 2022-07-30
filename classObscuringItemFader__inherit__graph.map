@@ -1,0 +1,4 @@
+<map id="ObscuringItemFader" name="ObscuringItemFader">
+<area shape="rect" id="node1" title="Used to obscure items when player is behind them. So that player can see the avatar clearly." alt="" coords="5,131,228,267"/>
+<area shape="rect" id="node2" title=" " alt="" coords="61,5,173,83"/>
+</map>
