@@ -13,7 +13,7 @@ public class SceneTeleport : MonoBehaviour
     /// If the collision happened with player, then teleport it to next scene.
     /// </summary>
     /// <param name="collision"></param>
-    private void OnTriggerEnter2D( Collider2D collision )
+    private void OnTriggerStay2D( Collider2D collision )
     {
         Player player = collision.GetComponent<Player>();
 
