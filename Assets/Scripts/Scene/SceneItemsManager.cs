@@ -127,13 +127,13 @@ public class SceneItemsManager : SingletonMonobehaviour<SceneItemsManager>, ISav
     {
         if( GameObjectSave.m_SceneData.TryGetValue( sceneName, out SceneSave sceneSave ) )
         {
-            if( sceneSave.m_ListSceneItemDictionary != null && sceneSave.m_ListSceneItemDictionary.TryGetValue("sceneItemList", out List<SceneItem> sceneItemList) )
+            if( sceneSave.m_ListSceneItem != null )
             {
                 // Scene list item found - destroy existing items in scene
                 DestroySceneItems();
 
                 // Now instantiate the list of scene items
-                InstantiateSceneItems( sceneItemList );
+                InstantiateSceneItems( sceneSave.m_ListSceneItem );
             }
         }
     }
@@ -165,10 +165,9 @@ public class SceneItemsManager : SingletonMonobehaviour<SceneItemsManager>, ISav
             sceneItemList.Add( sceneItem );
         }
 
-        // Create list scene items dictionary in scene save and add to it
+        // Create list scene items in scene save and set to scene item list.
         SceneSave sceneSave = new SceneSave();
-        sceneSave.m_ListSceneItemDictionary = new Dictionary<string, List<SceneItem>>();
-        sceneSave.m_ListSceneItemDictionary.Add( "sceneItemList", sceneItemList );
+        sceneSave.m_ListSceneItem = sceneItemList;
 
         // Add scene save to game object
         GameObjectSave.m_SceneData.Add( sceneName, sceneSave );

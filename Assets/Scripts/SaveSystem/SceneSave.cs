@@ -7,5 +7,6 @@
 public class SceneSave
 {
     // string key is an identifier name we choose for this list
-    public Dictionary<string, List<SceneItem>> m_ListSceneItemDictionary;
+    public List<SceneItem> m_ListSceneItem;
+    public Dictionary<string, GridPropertyDetails> m_GridPropertyDetailsDictionary;
 }

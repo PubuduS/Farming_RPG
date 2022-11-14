@@ -123,18 +123,25 @@ public class UIInventorySlot : MonoBehaviour, IBeginDragHandler, IDragHandler, I
         {
             Vector3 worldPosiiton = m_MainCamera.ScreenToWorldPoint( new Vector3( Input.mousePosition.x, Input.mousePosition.y, -m_MainCamera.transform.position.z ) );
 
-            // Create item from prefab at mouse position
-            GameObject itemGameObject = Instantiate( m_ItemPrefab, worldPosiiton, Quaternion.identity, m_ParentItem );
-            Item item = itemGameObject.GetComponent<Item>();
-            item.ItemCode = m_ItemDetails.m_ItemCode;
+            // Check if we can drop item here.
+            Vector3Int gridPosition = GridPropertiesManager.Instance.m_Grid.WorldToCell( worldPosiiton );
+            GridPropertyDetails gridPropertyDetails = GridPropertiesManager.Instance.GetGridPropertyDetails( gridPosition.x, gridPosition.y );
 
-            // Remove item from player inventory.
-            InventoryManager.Instance.RemoveItem( InventoryLocation.Player, item.ItemCode);
-
-            // If no more of item then clear selected
-            if( InventoryManager.Instance.FindItemInInventory( InventoryLocation.Player, item.ItemCode ) == -1 )
+            if( gridPropertyDetails != null && gridPropertyDetails.m_CanDropItem )
             {
-                ClearSelectedItem();
+                // Create item from prefab at mouse position
+                GameObject itemGameObject = Instantiate(m_ItemPrefab, new Vector3( worldPosiiton.x, ( worldPosiiton.y - Settings.m_GridCellSize / 2.0f ), worldPosiiton.z ), Quaternion.identity, m_ParentItem);
+                Item item = itemGameObject.GetComponent<Item>();
+                item.ItemCode = m_ItemDetails.m_ItemCode;
+
+                // Remove item from player inventory.
+                InventoryManager.Instance.RemoveItem(InventoryLocation.Player, item.ItemCode);
+
+                // If no more of item then clear selected
+                if (InventoryManager.Instance.FindItemInInventory(InventoryLocation.Player, item.ItemCode) == -1)
+                {
+                    ClearSelectedItem();
+                }
             }
         }
     }

@@ -15,6 +15,9 @@ public static class Settings
     //! How it looks like after fading.
     public const float m_TargetAlpha = 0.45f;
 
+    //! Grid cell size in unity units.
+    public const float m_GridCellSize = 1.0f;
+
     //! Player Movements
     public const float m_RunningSpeed = 5.333f;
     public const float m_WalkingSpeed = 2.666f;
