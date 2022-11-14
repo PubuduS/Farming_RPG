@@ -10327,6 +10327,7 @@ GameObject:
   - component: {fileID: 4166194755554044386}
   - component: {fileID: 4166194755554044388}
   - component: {fileID: 4166194755554044389}
+  - component: {fileID: 4166194755554044390}
   m_Layer: 0
   m_Name: BoldNPCObstacle
   m_TagString: Untagged
@@ -10419,6 +10420,20 @@ TilemapRenderer:
   m_Mode: 0
   m_DetectChunkCullingBounds: 0
   m_MaskInteraction: 0
+--- !u!114 &4166194755554044390
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4166194755554044387}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f8e35abc1ebd544b95fd55781f42e53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_GridProperties: {fileID: 11400000, guid: 22ec0ca87ae37db4f8ced276359a3be1, type: 2}
+  m_GridBoolProperty: 4
 --- !u!1 &4166194755587142770
 GameObject:
   m_ObjectHideFlags: 0
@@ -12293,6 +12308,7 @@ GameObject:
   - component: {fileID: 4166194755745822611}
   - component: {fileID: 4166194755745822613}
   - component: {fileID: 4166194755745822610}
+  - component: {fileID: 4166194755745822609}
   m_Layer: 0
   m_Name: BoldDiggable
   m_TagString: Untagged
@@ -12300,6 +12316,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &4166194755745822609
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4166194755745822608}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f8e35abc1ebd544b95fd55781f42e53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_GridProperties: {fileID: 11400000, guid: 22ec0ca87ae37db4f8ced276359a3be1, type: 2}
+  m_GridBoolProperty: 0
 --- !u!483693784 &4166194755745822610
 TilemapRenderer:
   m_ObjectHideFlags: 0
@@ -12656,6 +12686,7 @@ GameObject:
   - component: {fileID: 4166194756293828709}
   - component: {fileID: 4166194756293828711}
   - component: {fileID: 4166194756293828708}
+  - component: {fileID: 4166194756293828707}
   m_Layer: 0
   m_Name: BoldCanPlaceFurniture
   m_TagString: Untagged
@@ -12663,6 +12694,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &4166194756293828707
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4166194756293828706}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f8e35abc1ebd544b95fd55781f42e53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_GridProperties: {fileID: 11400000, guid: 22ec0ca87ae37db4f8ced276359a3be1, type: 2}
+  m_GridBoolProperty: 2
 --- !u!483693784 &4166194756293828708
 TilemapRenderer:
   m_ObjectHideFlags: 0
@@ -64351,6 +64396,7 @@ GameObject:
   - component: {fileID: 4166194756513801026}
   - component: {fileID: 4166194756513801028}
   - component: {fileID: 4166194756513801029}
+  - component: {fileID: 4166194756513801030}
   m_Layer: 0
   m_Name: BoldPath
   m_TagString: Untagged
@@ -64443,6 +64489,20 @@ TilemapRenderer:
   m_Mode: 0
   m_DetectChunkCullingBounds: 0
   m_MaskInteraction: 0
+--- !u!114 &4166194756513801030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4166194756513801027}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f8e35abc1ebd544b95fd55781f42e53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_GridProperties: {fileID: 11400000, guid: 22ec0ca87ae37db4f8ced276359a3be1, type: 2}
+  m_GridBoolProperty: 3
 --- !u!1 &4166194756613616132
 GameObject:
   m_ObjectHideFlags: 0
@@ -64454,6 +64514,7 @@ GameObject:
   - component: {fileID: 4166194756613616135}
   - component: {fileID: 4166194756613616633}
   - component: {fileID: 4166194756613616134}
+  - component: {fileID: 4166194756613616133}
   m_Layer: 0
   m_Name: BoldCanDropItems
   m_TagString: Untagged
@@ -64461,6 +64522,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &4166194756613616133
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4166194756613616132}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f8e35abc1ebd544b95fd55781f42e53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_GridProperties: {fileID: 11400000, guid: 22ec0ca87ae37db4f8ced276359a3be1, type: 2}
+  m_GridBoolProperty: 1
 --- !u!483693784 &4166194756613616134
 TilemapRenderer:
   m_ObjectHideFlags: 0

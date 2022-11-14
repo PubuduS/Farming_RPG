@@ -88,6 +88,19 @@ public enum PartVariantType
 }
 
 /// <summary>
+/// Describes the Grid bool property.
+/// Each grid holds following information.
+/// </summary>
+public enum GridBoolProperty
+{
+    Diggable,
+    CanDropItem,
+    CanPlaceFurniture,
+    IsPath,
+    IsNPCObstacle
+}
+
+/// <summary>
 /// Describes the type of inventory and count
 /// Ex: player inventory or chest inventory
 /// </summary>

@@ -128,6 +128,7 @@ GameObject:
   - component: {fileID: 90204990607000293}
   - component: {fileID: 90204990607000291}
   - component: {fileID: 90204990607000292}
+  - component: {fileID: 2017408958811160549}
   m_Layer: 0
   m_Name: BoldDiggable
   m_TagString: Untagged
@@ -234,6 +235,20 @@ TilemapRenderer:
   m_Mode: 0
   m_DetectChunkCullingBounds: 0
   m_MaskInteraction: 0
+--- !u!114 &2017408958811160549
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 90204990607000294}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f8e35abc1ebd544b95fd55781f42e53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_GridProperties: {fileID: 0}
+  m_GridBoolProperty: 0
 --- !u!1 &90204990783078660
 GameObject:
   m_ObjectHideFlags: 0
@@ -362,6 +377,7 @@ GameObject:
   - component: {fileID: 90204990818147476}
   - component: {fileID: 90204990818147474}
   - component: {fileID: 90204990818147475}
+  - component: {fileID: 8136986074449651286}
   m_Layer: 0
   m_Name: BoldNPCObstacle
   m_TagString: Untagged
@@ -468,6 +484,20 @@ TilemapRenderer:
   m_Mode: 0
   m_DetectChunkCullingBounds: 0
   m_MaskInteraction: 0
+--- !u!114 &8136986074449651286
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 90204990818147477}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f8e35abc1ebd544b95fd55781f42e53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_GridProperties: {fileID: 0}
+  m_GridBoolProperty: 0
 --- !u!1 &90204990964816919
 GameObject:
   m_ObjectHideFlags: 0
@@ -713,6 +743,7 @@ GameObject:
   - component: {fileID: 90204991154230547}
   - component: {fileID: 90204991154230545}
   - component: {fileID: 90204991154230546}
+  - component: {fileID: 2386952994508592019}
   m_Layer: 0
   m_Name: BoldCanPlaceFurniture
   m_TagString: Untagged
@@ -819,6 +850,20 @@ TilemapRenderer:
   m_Mode: 0
   m_DetectChunkCullingBounds: 0
   m_MaskInteraction: 0
+--- !u!114 &2386952994508592019
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 90204991154230548}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f8e35abc1ebd544b95fd55781f42e53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_GridProperties: {fileID: 0}
+  m_GridBoolProperty: 0
 --- !u!1 &90204991181264437
 GameObject:
   m_ObjectHideFlags: 0
@@ -830,6 +875,7 @@ GameObject:
   - component: {fileID: 90204991181264436}
   - component: {fileID: 90204991181264434}
   - component: {fileID: 90204991181264435}
+  - component: {fileID: 1509888623552822277}
   m_Layer: 0
   m_Name: BoldPath
   m_TagString: Untagged
@@ -936,6 +982,20 @@ TilemapRenderer:
   m_Mode: 0
   m_DetectChunkCullingBounds: 0
   m_MaskInteraction: 0
+--- !u!114 &1509888623552822277
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 90204991181264437}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f8e35abc1ebd544b95fd55781f42e53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_GridProperties: {fileID: 0}
+  m_GridBoolProperty: 0
 --- !u!1 &90204991204728217
 GameObject:
   m_ObjectHideFlags: 0
@@ -1567,6 +1627,7 @@ GameObject:
   - component: {fileID: 90204991885051761}
   - component: {fileID: 90204991885051535}
   - component: {fileID: 90204991885051760}
+  - component: {fileID: 2380757000171012183}
   m_Layer: 0
   m_Name: BoldCanDropItems
   m_TagString: Untagged
@@ -1673,6 +1734,20 @@ TilemapRenderer:
   m_Mode: 0
   m_DetectChunkCullingBounds: 0
   m_MaskInteraction: 0
+--- !u!114 &2380757000171012183
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 90204991885051762}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f8e35abc1ebd544b95fd55781f42e53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_GridProperties: {fileID: 0}
+  m_GridBoolProperty: 0
 --- !u!1 &90204992285473980
 GameObject:
   m_ObjectHideFlags: 0

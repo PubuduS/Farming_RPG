@@ -12906,6 +12906,7 @@ GameObject:
   - component: {fileID: 791991550}
   - component: {fileID: 791991552}
   - component: {fileID: 791991551}
+  - component: {fileID: 791991553}
   m_Layer: 0
   m_Name: BoldCanDropItems
   m_TagString: Untagged
@@ -13012,6 +13013,20 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!114 &791991553
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 791991549}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f8e35abc1ebd544b95fd55781f42e53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_GridProperties: {fileID: 11400000, guid: d6fd71306f3242d4abb840ec2d544b99, type: 2}
+  m_GridBoolProperty: 1
 --- !u!1001 &794832402
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -76848,6 +76863,7 @@ GameObject:
   - component: {fileID: 1428276667}
   - component: {fileID: 1428276669}
   - component: {fileID: 1428276668}
+  - component: {fileID: 1428276670}
   m_Layer: 0
   m_Name: BoldPath
   m_TagString: Untagged
@@ -76954,6 +76970,20 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!114 &1428276670
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1428276666}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f8e35abc1ebd544b95fd55781f42e53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_GridProperties: {fileID: 11400000, guid: d6fd71306f3242d4abb840ec2d544b99, type: 2}
+  m_GridBoolProperty: 3
 --- !u!1001 &1440760546
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -78765,6 +78795,7 @@ GameObject:
   - component: {fileID: 1539655324}
   - component: {fileID: 1539655326}
   - component: {fileID: 1539655325}
+  - component: {fileID: 1539655327}
   m_Layer: 0
   m_Name: BoldCanPlaceFurniture
   m_TagString: Untagged
@@ -78871,6 +78902,20 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!114 &1539655327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1539655323}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f8e35abc1ebd544b95fd55781f42e53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_GridProperties: {fileID: 11400000, guid: d6fd71306f3242d4abb840ec2d544b99, type: 2}
+  m_GridBoolProperty: 2
 --- !u!1 &1542007614
 GameObject:
   m_ObjectHideFlags: 0
@@ -87307,6 +87352,7 @@ GameObject:
   - component: {fileID: 1876725531}
   - component: {fileID: 1876725533}
   - component: {fileID: 1876725532}
+  - component: {fileID: 1876725534}
   m_Layer: 0
   m_Name: BoldNPCObstacle
   m_TagString: Untagged
@@ -87413,6 +87459,20 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!114 &1876725534
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1876725530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f8e35abc1ebd544b95fd55781f42e53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_GridProperties: {fileID: 11400000, guid: d6fd71306f3242d4abb840ec2d544b99, type: 2}
+  m_GridBoolProperty: 4
 --- !u!1001 &1880438754
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -90119,6 +90179,7 @@ GameObject:
   - component: {fileID: 2070630762}
   - component: {fileID: 2070630764}
   - component: {fileID: 2070630763}
+  - component: {fileID: 2070630765}
   m_Layer: 0
   m_Name: BoldDiggable
   m_TagString: Untagged
@@ -90225,6 +90286,20 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!114 &2070630765
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2070630761}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f8e35abc1ebd544b95fd55781f42e53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_GridProperties: {fileID: 11400000, guid: d6fd71306f3242d4abb840ec2d544b99, type: 2}
+  m_GridBoolProperty: 0
 --- !u!1001 &2070731217
 PrefabInstance:
   m_ObjectHideFlags: 0
