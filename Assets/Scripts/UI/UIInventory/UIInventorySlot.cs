@@ -21,7 +21,7 @@ public class UIInventorySlot : MonoBehaviour, IBeginDragHandler, IDragHandler, I
     private Camera m_MainCamera;
     private Transform m_ParentItem;
     private GameObject m_DraggedItem;
-
+    private GridCursor m_GridCursor;
     private Canvas m_ParentCanvas;
 
     [SerializeField]
@@ -67,7 +67,20 @@ public class UIInventorySlot : MonoBehaviour, IBeginDragHandler, IDragHandler, I
     /// </summary>
     private void Start()
     {
-        m_MainCamera = Camera.main;        
+        m_MainCamera = Camera.main;
+        m_GridCursor = FindObjectOfType<GridCursor>();
+    }
+
+    /// <summary>
+    /// Disable the cursor and change item type to none.
+    /// </summary>
+    private void ClearCursors()
+    {
+        // Disable cursor
+        m_GridCursor.DisableCursor();
+
+        // Set item type to none.
+        m_GridCursor.SelectedItemType = ItemType.None;
     }
 
     /// <summary>
@@ -83,6 +96,22 @@ public class UIInventorySlot : MonoBehaviour, IBeginDragHandler, IDragHandler, I
 
         // Set highlighted inventory slot.
         m_InventoryBar.SetHighlightedInventorySlots();
+
+        // Set use radius for cursor
+        m_GridCursor.ItemUseGridRadius = m_ItemDetails.m_ItemUseGridRadius;
+
+        // If item requires a grid cursor, then enable the cursor.
+        if( m_ItemDetails.m_ItemUseGridRadius > 0 )
+        {
+            m_GridCursor.EnableCursor();
+        }
+        else
+        {
+            m_GridCursor.DisableCursor();
+        }
+
+        // Set item type
+        m_GridCursor.SelectedItemType = m_ItemDetails.m_ItemType;
 
         // Set item selected in inventory
         InventoryManager.Instance.SetSelectedInventoryItem( InventoryLocation.Player, m_ItemDetails.m_ItemCode );
@@ -103,6 +132,8 @@ public class UIInventorySlot : MonoBehaviour, IBeginDragHandler, IDragHandler, I
     /// </summary>
     private void ClearSelectedItem()
     {
+        ClearCursors();
+
         m_InventoryBar.ClearHighlightOnInventorySlots();
 
         m_IsSelected = false;
@@ -120,25 +151,22 @@ public class UIInventorySlot : MonoBehaviour, IBeginDragHandler, IDragHandler, I
     private void DropSelectedItemAtMousePosition()
     {
         if( m_ItemDetails != null && m_IsSelected )
-        {
-            Vector3 worldPosiiton = m_MainCamera.ScreenToWorldPoint( new Vector3( Input.mousePosition.x, Input.mousePosition.y, -m_MainCamera.transform.position.z ) );
-
-            // Check if we can drop item here.
-            Vector3Int gridPosition = GridPropertiesManager.Instance.m_Grid.WorldToCell( worldPosiiton );
-            GridPropertyDetails gridPropertyDetails = GridPropertiesManager.Instance.GetGridPropertyDetails( gridPosition.x, gridPosition.y );
-
-            if( gridPropertyDetails != null && gridPropertyDetails.m_CanDropItem )
+        {  
+            // Check if this is a valid cursor position or not.
+            if( m_GridCursor.CursorPositionIsValid )
             {
+                Vector3 worldPosiiton = m_MainCamera.ScreenToWorldPoint( new Vector3( Input.mousePosition.x, Input.mousePosition.y, -m_MainCamera.transform.position.z ) );
+
                 // Create item from prefab at mouse position
-                GameObject itemGameObject = Instantiate(m_ItemPrefab, new Vector3( worldPosiiton.x, ( worldPosiiton.y - Settings.m_GridCellSize / 2.0f ), worldPosiiton.z ), Quaternion.identity, m_ParentItem);
+                GameObject itemGameObject = Instantiate( m_ItemPrefab, new Vector3( worldPosiiton.x, ( worldPosiiton.y - Settings.m_GridCellSize / 2.0f ), worldPosiiton.z ), Quaternion.identity, m_ParentItem );
                 Item item = itemGameObject.GetComponent<Item>();
                 item.ItemCode = m_ItemDetails.m_ItemCode;
 
                 // Remove item from player inventory.
-                InventoryManager.Instance.RemoveItem(InventoryLocation.Player, item.ItemCode);
+                InventoryManager.Instance.RemoveItem( InventoryLocation.Player, item.ItemCode );
 
                 // If no more of item then clear selected
-                if (InventoryManager.Instance.FindItemInInventory(InventoryLocation.Player, item.ItemCode) == -1)
+                if (InventoryManager.Instance.FindItemInInventory( InventoryLocation.Player, item.ItemCode) == -1 )
                 {
                     ClearSelectedItem();
                 }
