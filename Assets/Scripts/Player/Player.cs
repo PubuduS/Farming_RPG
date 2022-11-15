@@ -7,6 +7,7 @@ using UnityEngine;
 public class Player : SingletonMonobehaviour<Player>
 {
     private AnimationOverrides m_AnimationOverrides;
+    private GridCursor m_GridCursor;
 
     // Movement Parameters
     private float m_XInput;
@@ -81,6 +82,14 @@ public class Player : SingletonMonobehaviour<Player>
     }
 
     /// <summary>
+    /// Initialize grid cursor variable.
+    /// </summary>
+    private void Start()
+    {
+        m_GridCursor = GameObject.FindObjectOfType<GridCursor>();
+    }
+
+    /// <summary>
     /// Handle movement inputs
     /// and publish animation events.
     /// </summary>
@@ -96,7 +105,11 @@ public class Player : SingletonMonobehaviour<Player>
 
             PlayerWalkInput();
 
+            PlayerClickInput();
+
             PlayerTestInput();
+
+            
 
             // Send event to any listeners for player movement input
             EventHandler.CallMovementEvent(m_XInput, m_YInput,
@@ -220,6 +233,85 @@ public class Player : SingletonMonobehaviour<Player>
             m_IsWalking = false;
             m_IsIdle = false;
             m_MovementSpeed = Settings.m_RunningSpeed;
+        }
+    }
+
+    /// <summary>
+    /// If the grid cursor is enabled and player click
+    /// left mouse button call ProcessPlayerClickInput()
+    /// </summary>
+    private void PlayerClickInput()
+    {
+        if( Input.GetMouseButton(0) )
+        {
+            if( m_GridCursor.CursorIsEnabled )
+            {
+                ProcessPlayerClickInput();
+            }
+        }
+    }
+
+    /// <summary>
+    /// 
+    /// </summary>
+    private void ProcessPlayerClickInput()
+    {
+        ResetMovement();
+
+        // Get selected item details
+        ItemDetails itemDetails = InventoryManager.Instance.GetSelectedInventoryItemDetails( InventoryLocation.Player );
+
+        if( itemDetails != null )
+        {
+            switch( itemDetails.m_ItemType )
+            {
+                case ItemType.Seed:
+                    if( Input.GetMouseButtonDown(0) )
+                    {
+                        ProcessPlayerClickInputSeed( itemDetails );
+                    }
+                    break;
+
+                case ItemType.Commodity:
+                    if( Input.GetMouseButtonDown(0) )
+                    {
+                        ProcessPlayerClickInputCommodity( itemDetails );
+                    }
+                    break;
+
+                case ItemType.None:
+                    break;
+
+                case ItemType.Count:
+                    break;
+
+                default:
+                    break;
+            }
+        }
+    }
+
+    /// <summary>
+    /// Check the position is valid and the item can be dropped for seed.
+    /// </summary>
+    /// <param name="itemDetails"></param>
+    private void ProcessPlayerClickInputSeed( ItemDetails itemDetails )
+    {
+        if( itemDetails.m_CanBeDropped && m_GridCursor.CursorPositionIsValid )
+        {
+            EventHandler.CallDropSelectedItemEvent();
+        }
+    }
+
+    /// <summary>
+    /// Check the position is valid and the item can be dropped for commodity.
+    /// </summary>
+    /// <param name="itemDetails"></param>
+    private void ProcessPlayerClickInputCommodity( ItemDetails itemDetails) 
+    {
+        if( itemDetails.m_CanBeDropped && m_GridCursor.CursorPositionIsValid )
+        {
+            EventHandler.CallDropSelectedItemEvent();
         }
     }
 

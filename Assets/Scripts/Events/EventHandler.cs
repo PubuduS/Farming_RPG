@@ -13,6 +13,16 @@ public delegate void MovementDelegate( float xInput, float yInput, bool isWalkin
 /// </summary>
 public static class EventHandler
 {
+    // Drop selected item event
+    public static event Action m_DropSelectedItemEvent;
+
+    public static void CallDropSelectedItemEvent()
+    {
+        if( m_DropSelectedItemEvent != null )
+        {
+            m_DropSelectedItemEvent();
+        }
+    }
 
     //! Inventory Updated Event
     public static event Action<InventoryLocation, List<InventoryItem>> m_InventoryUpdatedEvent;
