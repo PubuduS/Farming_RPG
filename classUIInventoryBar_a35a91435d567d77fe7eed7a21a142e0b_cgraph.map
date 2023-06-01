@@ -1,0 +1,6 @@
+<map id="UIInventoryBar.OnDisable" name="UIInventoryBar.OnDisable">
+<area shape="rect" id="node1" title="Unsubscribed to InventoryUpdatedEvent to trigger InventoryUpdated method." alt="" coords="5,42,177,67"/>
+<area shape="rect" id="node2" href="$classUIInventoryBar.html#a1312d86e9061d42a6bcf35e229208459" title="Draw the images of new items in the inventory." alt="" coords="225,35,391,75"/>
+<area shape="rect" id="node3" href="$classUIInventoryBar.html#a181a35123d75354fd904ddfd29669957" title="Clear the inventory slots to default values." alt="" coords="439,5,633,45"/>
+<area shape="rect" id="node4" href="$classUIInventoryBar.html#afcb9e39819d145a7fcaa096cda59d146" title="Set the selected highlight if set on all inventory item position" alt="" coords="681,35,879,75"/>
+</map>

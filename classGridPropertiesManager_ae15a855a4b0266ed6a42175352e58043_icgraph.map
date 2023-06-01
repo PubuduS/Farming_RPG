@@ -1,0 +1,6 @@
+<map id="GridPropertiesManager.GetGridPropertyDetails" name="GridPropertiesManager.GetGridPropertyDetails">
+<area shape="rect" id="node1" title="Return thr grid property details at the gridLocation for the supplied dictionary, or null if not foun..." alt="" coords="495,37,673,77"/>
+<area shape="rect" id="node2" href="$classGridPropertiesManager.html#a68dad2209685fc0e6bb08322480d72ef" title="Get the grid property details for the tile at (gridX, gridY). If no grid property details exist null ..." alt="" coords="254,5,433,45"/>
+<area shape="rect" id="node3" href="$classGridPropertiesManager.html#a9436718a6e4662309c6fafc1edcc7560" title="This initialises the grid property dictionary with the values from the SO_GridProperties assets and s..." alt="" coords="240,69,447,109"/>
+<area shape="rect" id="node4" href="$classGridPropertiesManager.html#a0217476b1790c4cdfef9d68b32cda81e" title="Call InitialiseGridProperties()" alt="" coords="5,77,192,102"/>
+</map>

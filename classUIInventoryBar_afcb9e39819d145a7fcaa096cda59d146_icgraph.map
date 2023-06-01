@@ -1,0 +1,10 @@
+<map id="UIInventoryBar.SetHighlightedInventorySlots" name="UIInventoryBar.SetHighlightedInventorySlots">
+<area shape="rect" id="node1" title="Set the selected highlight if set on all inventory item position" alt="" coords="725,67,923,107"/>
+<area shape="rect" id="node2" href="$classUIInventoryBar.html#a181a35123d75354fd904ddfd29669957" title="Clear the inventory slots to default values." alt="" coords="474,10,669,50"/>
+<area shape="rect" id="node3" href="$classUIInventoryBar.html#a1312d86e9061d42a6bcf35e229208459" title="Draw the images of new items in the inventory." alt="" coords="239,22,404,62"/>
+<area shape="rect" id="node6" href="$classUIInventorySlot.html#ad1220fec0ee105c9cb2b938beeda9944" title="Sets this inventory slot item to be selected" alt="" coords="465,125,677,151"/>
+<area shape="rect" id="node4" href="$classUIInventoryBar.html#a35a91435d567d77fe7eed7a21a142e0b" title="Unsubscribed to InventoryUpdatedEvent to trigger InventoryUpdated method." alt="" coords="5,5,177,31"/>
+<area shape="rect" id="node5" href="$classUIInventoryBar.html#a37ba8191c1239b0760cedbeba5cfb1a5" title="Subscribed to InventoryUpdatedEvent to trigger InventoryUpdated method." alt="" coords="7,55,175,80"/>
+<area shape="rect" id="node7" href="$classUIInventorySlot.html#a3c8a04e977f6256bfff90709a65f73b4" title="Begin executing when we start to dran an item from the inventory bar" alt="" coords="225,112,417,137"/>
+<area shape="rect" id="node8" href="$classUIInventorySlot.html#a1af3891078ee83218ebafa2ae4d6a6d1" title="If we click an item in the inventory set it or clear it another is already selected." alt="" coords="235,162,408,202"/>
+</map>

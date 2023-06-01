@@ -1,0 +1,27 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" title=" " alt="" coords="11,5,142,31"/>
+<area shape="rect" id="node2" href="$classUIInventorySlot.html" title=" " alt="" coords="241,128,353,153"/>
+<area shape="rect" id="node3" title=" " alt="" coords="27,55,126,80"/>
+<area shape="rect" id="node4" title=" " alt="" coords="17,104,137,129"/>
+<area shape="rect" id="node5" title=" " alt="" coords="6,153,147,179"/>
+<area shape="rect" id="node6" title=" " alt="" coords="5,203,148,228"/>
+<area shape="rect" id="node7" title=" " alt="" coords="10,252,143,277"/>
+<area shape="rect" id="node8" title=" " alt="" coords="21,559,133,584"/>
+<area shape="rect" id="node9" href="$classAnimationOverrides.html" title=" " alt="" coords="229,177,365,203"/>
+<area shape="rect" id="node10" href="$classGameClock.html" title=" " alt="" coords="251,227,342,252"/>
+<area shape="rect" id="node11" href="$classGenerateGUID.html" title="Assign a unique GUID for the objects. These ids are used to retrive the gameobjects when restoring sc..." alt="" coords="243,276,351,301"/>
+<area shape="rect" id="node12" href="$classGridCursor.html" title=" " alt="" coords="255,325,339,351"/>
+<area shape="rect" id="node13" href="$classItem.html" title=" " alt="" coords="273,375,321,400"/>
+<area shape="rect" id="node14" href="$classItemNudge.html" title="Create a class that create nudge effect on grass and some other items. When player get near items,..." alt="" coords="253,424,340,449"/>
+<area shape="rect" id="node15" href="$classItemPickup.html" title=" " alt="" coords="253,473,341,499"/>
+<area shape="rect" id="node16" href="$classMovementAnimationParameterControl.html" title="Control and trigger animations based on the right moves." alt="" coords="196,523,397,563"/>
+<area shape="rect" id="node17" href="$classObscuringItemFader.html" title="Used to obscure items when player is behind them. So that player can see the avatar clearly." alt="" coords="227,588,367,613"/>
+<area shape="rect" id="node18" href="$classPlayerAnimationTest.html" title="This is just a test script to trigger and test animations." alt="" coords="225,637,368,663"/>
+<area shape="rect" id="node19" href="$classSceneTeleport.html" title=" " alt="" coords="243,687,350,712"/>
+<area shape="rect" id="node20" href="$classSingletonMonobehaviour.html" title="Abstract class that inherited by all the game managers. All the game managers use singleton since gam..." alt="" coords="199,736,394,761"/>
+<area shape="rect" id="node21" href="$classSwitchConfineBoundingShape.html" title="This class will confine the camera so that it won&#39;t go beyond the boundaries." alt="" coords="199,785,395,811"/>
+<area shape="rect" id="node22" href="$classTilemapGridProperties.html" title="This script by default will execute on both editor and runtime." alt="" coords="221,835,372,860"/>
+<area shape="rect" id="node23" href="$classTriggerObscuringItemFader.html" title="This class trigger fade in and out depending on the distance of the objects that needs to be fade out..." alt="" coords="207,884,387,909"/>
+<area shape="rect" id="node24" href="$classUIInventoryBar.html" title=" " alt="" coords="242,933,351,959"/>
+<area shape="rect" id="node25" href="$classUIInventoryTextBox.html" title=" " alt="" coords="229,983,365,1008"/>
+</map>

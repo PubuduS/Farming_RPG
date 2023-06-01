@@ -1,0 +1,7 @@
+<map id="Player.ResetMovement" name="Player.ResetMovement">
+<area shape="rect" id="node1" title="Reset Movement" alt="" coords="581,45,737,70"/>
+<area shape="rect" id="node2" href="$classPlayer.html#a2be14812e8c12d97c2c5762456f96b52" title="Disable input and reset movement." alt="" coords="361,5,531,45"/>
+<area shape="rect" id="node3" href="$classPlayer.html#a80152f88168204addb91aaf173acc478" title=" " alt="" coords="359,69,533,109"/>
+<area shape="rect" id="node4" href="$classPlayer.html#acaacbd913f9d6a886d1afd72509914a5" title="If the grid cursor is enabled and player click left mouse button call ProcessPlayerClickInput()" alt="" coords="156,77,311,102"/>
+<area shape="rect" id="node5" href="$classPlayer.html#aace80372e18e32fe177e295fe5d93ba8" title="Handle movement inputs and publish animation events." alt="" coords="5,77,108,102"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="Player.DisablePlayerInputAndResetMovement" name="Player.DisablePlayerInputAndResetMovement">
+<area shape="rect" id="node1" title="Disable input and reset movement." alt="" coords="5,63,175,103"/>
+<area shape="rect" id="node2" href="$classEventHandler.html#a0dbfda1850db6f0a440312737b8b3e78" title="Movement Event Call For Publishers." alt="" coords="223,5,409,45"/>
+<area shape="rect" id="node3" href="$classPlayer.html#ac9ea5e065ebf7426097ec3a5ac3342b7" title="Disable Player Input" alt="" coords="231,70,401,95"/>
+<area shape="rect" id="node4" href="$classPlayer.html#ac1f3fd232536545edefb4e09415d29bb" title="Reset Movement" alt="" coords="238,119,394,145"/>
+</map>

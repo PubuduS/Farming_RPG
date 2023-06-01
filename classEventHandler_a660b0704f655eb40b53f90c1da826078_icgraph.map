@@ -1,0 +1,7 @@
+<map id="EventHandler.CallInventoryUpdatedEvent" name="EventHandler.CallInventoryUpdatedEvent">
+<area shape="rect" id="node1" title="Update the event" alt="" coords="493,47,672,87"/>
+<area shape="rect" id="node2" href="$classInventoryManager.html#ac433ccbd478fbc6676d35bbaaea14dba" title="Add an item to the inventory List for the inventory location" alt="" coords="249,5,427,31"/>
+<area shape="rect" id="node4" href="$classInventoryManager.html#a4e7e026c21be299c10873f49baf7efd9" title="Remove an item from the inventory, and create a gameobject at the position it was dropped" alt="" coords="237,55,439,80"/>
+<area shape="rect" id="node5" href="$classInventoryManager.html#a9c7f4867d530ab56b238df4bff2843e0" title="Swap item at fromItem index with item at toItem index in inventoryLocation inventory list." alt="" coords="231,105,445,145"/>
+<area shape="rect" id="node3" href="$classInventoryManager.html#a5f5ae221e3ba789d65fef0ca472491a5" title="Add an item to the inventory list for the inventoryLocation and then destroy the gameObjectToDelete" alt="" coords="5,5,183,31"/>
+</map>

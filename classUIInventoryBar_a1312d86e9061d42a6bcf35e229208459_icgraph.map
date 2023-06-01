@@ -1,0 +1,5 @@
+<map id="UIInventoryBar.InventoryUpdated" name="UIInventoryBar.InventoryUpdated">
+<area shape="rect" id="node1" title="Draw the images of new items in the inventory." alt="" coords="225,23,391,63"/>
+<area shape="rect" id="node2" href="$classUIInventoryBar.html#a35a91435d567d77fe7eed7a21a142e0b" title="Unsubscribed to InventoryUpdatedEvent to trigger InventoryUpdated method." alt="" coords="5,5,177,31"/>
+<area shape="rect" id="node3" href="$classUIInventoryBar.html#a37ba8191c1239b0760cedbeba5cfb1a5" title="Subscribed to InventoryUpdatedEvent to trigger InventoryUpdated method." alt="" coords="7,55,175,80"/>
+</map>

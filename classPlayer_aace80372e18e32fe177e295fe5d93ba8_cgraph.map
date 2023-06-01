@@ -1,0 +1,14 @@
+<map id="Player.Update" name="Player.Update">
+<area shape="rect" id="node1" title="Handle movement inputs and publish animation events." alt="" coords="5,151,108,177"/>
+<area shape="rect" id="node2" href="$classEventHandler.html#a0dbfda1850db6f0a440312737b8b3e78" title="Movement Event Call For Publishers." alt="" coords="159,12,346,52"/>
+<area shape="rect" id="node3" href="$classPlayer.html#acaacbd913f9d6a886d1afd72509914a5" title="If the grid cursor is enabled and player click left mouse button call ProcessPlayerClickInput()" alt="" coords="175,77,330,102"/>
+<area shape="rect" id="node9" href="$classPlayer.html#a955db903d18c464eec5f095ef610d274" title="Handle player inputs and normalized that." alt="" coords="159,126,346,151"/>
+<area shape="rect" id="node10" href="$classPlayer.html#ad53631c29c00a800c761824285b426ca" title="TODO: Remove before final product." alt="" coords="177,175,329,201"/>
+<area shape="rect" id="node11" href="$classPlayer.html#a7c0282211fdc90a970b981019a68470e" title="Handle player walk inputs." alt="" coords="175,225,330,250"/>
+<area shape="rect" id="node12" href="$classPlayer.html#aab9c7aa4cc02a540d2a4d9b45af9dd38" title="Reset the animation triggers." alt="" coords="156,274,349,299"/>
+<area shape="rect" id="node4" href="$classPlayer.html#a80152f88168204addb91aaf173acc478" title=" " alt="" coords="397,69,572,109"/>
+<area shape="rect" id="node5" href="$classPlayer.html#a533495eb88b10fd0213c59abbe3d16a1" title="Check the position is valid and the item can be dropped for commodity." alt="" coords="620,5,795,45"/>
+<area shape="rect" id="node7" href="$classPlayer.html#a925558fc0f5aee3a2386ede5b31939e5" title="Check the position is valid and the item can be dropped for seed." alt="" coords="620,69,795,109"/>
+<area shape="rect" id="node8" href="$classPlayer.html#ac1f3fd232536545edefb4e09415d29bb" title="Reset Movement" alt="" coords="629,134,785,159"/>
+<area shape="rect" id="node6" href="$classEventHandler.html#aefecf1b5d6a1600a3330ff67d3b1d95d" title=" " alt="" coords="843,37,1045,77"/>
+</map>

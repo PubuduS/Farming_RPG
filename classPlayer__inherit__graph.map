@@ -1,0 +1,4 @@
+<map id="Player" name="Player">
+<area shape="rect" id="node1" title="This class has all the things related to player" alt="" coords="5,152,235,749"/>
+<area shape="rect" id="node2" href="$classSingletonMonobehaviour.html" title=" " alt="" coords="36,5,204,104"/>
+</map>

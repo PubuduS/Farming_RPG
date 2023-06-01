@@ -1,0 +1,4 @@
+<map id="GameClock.OnEnable" name="GameClock.OnEnable">
+<area shape="rect" id="node1" title="Subscribe to the AdvanceGameMinuteEvent" alt="" coords="5,5,155,31"/>
+<area shape="rect" id="node2" href="$classGameClock.html#a5b45700cfb0bb4378f2ffff72608e61a" title="Update UI game time" alt="" coords="203,5,401,31"/>
+</map>

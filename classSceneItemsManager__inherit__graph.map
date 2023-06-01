@@ -1,0 +1,5 @@
+<map id="SceneItemsManager" name="SceneItemsManager">
+<area shape="rect" id="node1" title="Control store, restore, save and load functionality in the scene." alt="" coords="76,211,332,573"/>
+<area shape="rect" id="node2" href="$classSingletonMonobehaviour.html" title=" " alt="" coords="5,35,173,133"/>
+<area shape="rect" id="node3" href="$interfaceISaveable.html" title="Interface for unity ISaveable" alt="" coords="197,5,440,163"/>
+</map>

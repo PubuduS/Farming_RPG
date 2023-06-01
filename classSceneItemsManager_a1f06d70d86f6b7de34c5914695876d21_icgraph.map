@@ -1,0 +1,4 @@
+<map id="SceneItemsManager.InstantiateSceneItems" name="SceneItemsManager.InstantiateSceneItems">
+<area shape="rect" id="node1" title="Loop through all the scene items Then instantiate a game object for each SceneItem" alt="" coords="256,5,463,45"/>
+<area shape="rect" id="node2" href="$classSceneItemsManager.html#a1543222fb72b0665b9d84808d8d070aa" title="Restore the scene" alt="" coords="5,5,208,45"/>
+</map>

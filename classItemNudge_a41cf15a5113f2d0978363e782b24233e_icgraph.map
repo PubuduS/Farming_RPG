@@ -1,0 +1,5 @@
+<map id="ItemNudge.RotateAntiClock" name="ItemNudge.RotateAntiClock">
+<area shape="rect" id="node1" title="Rotate the gameObject anti clock wise. We rotate it by 2 in 4 steps Then we rotate it in the opposite..." alt="" coords="245,31,428,56"/>
+<area shape="rect" id="node2" href="$classItemNudge.html#af970719d02ea6b6522320caf8d8aaf41" title="Detect and starts coroutines when player collided with an object that this script is attached to" alt="" coords="5,5,197,31"/>
+<area shape="rect" id="node3" href="$classItemNudge.html#a491f2500c1854361ba3a81a6d8524a77" title="Detect and starts coroutines when player exit from the collider that this bject is attached to" alt="" coords="10,55,193,80"/>
+</map>

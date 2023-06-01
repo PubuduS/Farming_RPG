@@ -1,0 +1,7 @@
+<map id="UIInventorySlot.SetSelectedItem" name="UIInventorySlot.SetSelectedItem">
+<area shape="rect" id="node1" title="Sets this inventory slot item to be selected" alt="" coords="5,95,217,121"/>
+<area shape="rect" id="node2" href="$classUIInventoryBar.html#a38dc181fcc6d541b7ef1ab428f817936" title="Clear all highlights from the inventory bar." alt="" coords="267,5,461,45"/>
+<area shape="rect" id="node3" href="$classGridCursor.html#aa73d034114b1707e5437247823e9e5f1" title="Disable the cursor." alt="" coords="280,70,448,95"/>
+<area shape="rect" id="node4" href="$classGridCursor.html#ad8001b6b4041c37eaa5dc31aa0196630" title="Enable the cursor." alt="" coords="282,119,446,145"/>
+<area shape="rect" id="node5" href="$classUIInventoryBar.html#afcb9e39819d145a7fcaa096cda59d146" title="Set the selected highlight if set on all inventory item position" alt="" coords="265,193,463,233"/>
+</map>

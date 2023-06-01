@@ -1,0 +1,5 @@
+<map id="AnimationOverrides.ApplyCharacterCustomisationParameters" name="AnimationOverrides.ApplyCharacterCustomisationParameters">
+<area shape="rect" id="node1" title="Handles the animation overrides" alt="" coords="215,23,443,63"/>
+<area shape="rect" id="node2" href="$classPlayer.html#aeef4eb059a9e0dc935f61ec95874b48e" title="Clear the carry animation" alt="" coords="7,5,165,31"/>
+<area shape="rect" id="node3" href="$classPlayer.html#ae4dbeb4bec2055c0d831db0083b83815" title="Show the carried item." alt="" coords="5,55,167,80"/>
+</map>

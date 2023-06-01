@@ -1,0 +1,9 @@
+<map id="UIInventorySlot.OnEndDrag" name="UIInventorySlot.OnEndDrag">
+<area shape="rect" id="node1" title="If item is droppable, drop the item otherwise destroy it." alt="" coords="5,33,187,58"/>
+<area shape="rect" id="node2" href="$classUIInventorySlot.html#ae017f2f2dc24022ade7cdf691caa1850" title="Clear currently highlighted items" alt="" coords="495,37,717,62"/>
+<area shape="rect" id="node6" href="$classUIInventorySlot.html#a0f4f2e40e52f8d155c17f8c43c26d4b4" title="Destroy gameobject when we hover away from the inventory slot." alt="" coords="235,25,447,65"/>
+<area shape="rect" id="node7" href="$classUIInventorySlot.html#a215fcdc6f1f503a097685e74a269068a" title="Drop the item (if selected) at the current mouse position. Called by drop item event" alt="" coords="244,89,437,129"/>
+<area shape="rect" id="node3" href="$classUIInventorySlot.html#a2a88fdafc17827602f5314fb3720d393" title="Disable the cursor and change item type to none." alt="" coords="767,7,957,33"/>
+<area shape="rect" id="node5" href="$classUIInventoryBar.html#a38dc181fcc6d541b7ef1ab428f817936" title="Clear all highlights from the inventory bar." alt="" coords="765,57,959,97"/>
+<area shape="rect" id="node4" href="$classGridCursor.html#aa73d034114b1707e5437247823e9e5f1" title="Disable the cursor." alt="" coords="1007,7,1175,33"/>
+</map>

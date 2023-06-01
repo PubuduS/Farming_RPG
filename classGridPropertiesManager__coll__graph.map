@@ -1,0 +1,8 @@
+<map id="GridPropertiesManager" name="GridPropertiesManager">
+<area shape="rect" id="node1" title="This will get the information from serialiable object and populate these class Basically this will st..." alt="" coords="237,315,565,853"/>
+<area shape="rect" id="node2" href="$classSingletonMonobehaviour.html" title=" " alt="" coords="5,124,183,223"/>
+<area shape="rect" id="node3" href="$interfaceISaveable.html" title="Interface for unity ISaveable" alt="" coords="207,95,450,252"/>
+<area shape="rect" id="node4" href="$classSO__GridProperties.html" title="This ScriptableObject object asset will contain all the information of each scene." alt="" coords="475,102,676,245"/>
+<area shape="rect" id="node5" title=" " alt="" coords="514,5,637,45"/>
+<area shape="rect" id="node6" href="$classGameObjectSave.html" title="Store all scenes in here. If we have 3 scenes, we have 3 entries." alt="" coords="701,117,919,230"/>
+</map>

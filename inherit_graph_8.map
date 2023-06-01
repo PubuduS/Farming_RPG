@@ -1,0 +1,7 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$interfaceISaveable.html" title="Interface for unity ISaveable" alt="" coords="54,70,134,95"/>
+<area shape="rect" id="node2" href="$classGridPropertiesManager.html" title="This will get the information from serialiable object and populate these class Basically this will st..." alt="" coords="231,43,385,69"/>
+<area shape="rect" id="node3" href="$classSceneItemsManager.html" title="Control store, restore, save and load functionality in the scene." alt="" coords="237,97,379,122"/>
+<area shape="rect" id="node4" href="$classSingletonMonobehaviour.html" title=" " alt="" coords="5,5,183,45"/>
+<area shape="rect" id="node5" href="$classSingletonMonobehaviour.html" title=" " alt="" coords="12,120,176,160"/>
+</map>

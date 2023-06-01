@@ -1,0 +1,4 @@
+<map id="ItemCodeDescriptionDrawer.GetItemDescription" name="ItemCodeDescriptionDrawer.GetItemDescription">
+<area shape="rect" id="node1" title="Get the description of the item." alt="" coords="240,5,427,45"/>
+<area shape="rect" id="node2" href="$classItemCodeDescriptionDrawer.html#ac78daf01abf39f6ed295acd9983e27b3" title="Using BeginProperty / EndProperty on the parent property means that prefab ovrride logic works on the..." alt="" coords="5,5,192,45"/>
+</map>

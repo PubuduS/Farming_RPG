@@ -1,0 +1,8 @@
+<map id="EventHandler.CallAdvanceGameYearEvent" name="EventHandler.CallAdvanceGameYearEvent">
+<area shape="rect" id="node1" title="Call the event AdvanceGameYearEvent" alt="" coords="760,47,936,87"/>
+<area shape="rect" id="node2" href="$classTimeManager.html#ae4982ef9edfe8d6586ffd233403b6590" title="Handles the progression of time." alt="" coords="487,55,712,80"/>
+<area shape="rect" id="node3" href="$classTimeManager.html#a65a60aff38309b7d03aa511d88e0abd6" title="Convert delta time to ingame seconds." alt="" coords="237,5,401,31"/>
+<area shape="rect" id="node5" href="$classTimeManager.html#a4cc5c45879eb1ffa8c2b1e9c555296b9" title="TODO: Remove before final product." alt="" coords="200,55,439,80"/>
+<area shape="rect" id="node6" href="$classTimeManager.html#a8eb2f6ac9d97bee2cdec29e04ca3171a" title="TODO: Remove before final product." alt="" coords="211,105,427,145"/>
+<area shape="rect" id="node4" href="$classTimeManager.html#a04aba992c1ecd11068caac4e5095920f" title="Start the ticking" alt="" coords="5,5,152,31"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="GridProperty" name="GridProperty">
+<area shape="rect" id="node1" title="Holds information about grid of every scene." alt="" coords="5,284,244,412"/>
+<area shape="rect" id="node2" href="$classGridCoordinate.html" title="Holds grid information x and y coordinate." alt="" coords="23,5,226,221"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="TimeManager.UpdateGameSecond" name="TimeManager.UpdateGameSecond">
+<area shape="rect" id="node1" title="Handles the progression of time." alt="" coords="5,173,231,198"/>
+<area shape="rect" id="node2" href="$classEventHandler.html#a552a807cecc01417d1a4e986f4e36e9a" title="Call the event AdvanceGameDayEvent" alt="" coords="288,5,464,45"/>
+<area shape="rect" id="node3" href="$classEventHandler.html#a797ef284092b5c10f0d886f8a76a5747" title="Call the event AdvanceGameHourEvent" alt="" coords="288,69,464,109"/>
+<area shape="rect" id="node4" href="$classEventHandler.html#a26e4a5b4c422ea8655bf42af4fa21fa2" title="Call the event AdvanceGameMinuteEvent" alt="" coords="288,133,464,173"/>
+<area shape="rect" id="node5" href="$classEventHandler.html#a9f8cde072416dc5d3725dd3af16cf55f" title="Call the event AdvanceGameSeasonEvent" alt="" coords="288,197,464,237"/>
+<area shape="rect" id="node6" href="$classEventHandler.html#ac93eac69ecaa1b82418e48b33c4d7a48" title="Call the event AdvanceGameYearEvent" alt="" coords="288,261,464,301"/>
+<area shape="rect" id="node7" href="$classTimeManager.html#af36d290e9c3b68bfba7b7b0dc83f8961" title="Return the day of the week" alt="" coords="279,326,473,351"/>
+</map>

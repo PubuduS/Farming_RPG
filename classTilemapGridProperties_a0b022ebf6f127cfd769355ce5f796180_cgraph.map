@@ -1,0 +1,4 @@
+<map id="TilemapGridProperties.OnDisable" name="TilemapGridProperties.OnDisable">
+<area shape="rect" id="node1" title="Only populate in the editor time. Upon disable, it will capture all the details of tilemap and save i..." alt="" coords="5,5,176,45"/>
+<area shape="rect" id="node2" href="$classTilemapGridProperties.html#acbc0502ce75cd116dd132ba4697dfe4f" title="Goes through the tilemap and captures everything on there." alt="" coords="224,5,420,45"/>
+</map>

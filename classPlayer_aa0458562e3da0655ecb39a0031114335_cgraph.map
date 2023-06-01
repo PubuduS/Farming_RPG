@@ -1,0 +1,4 @@
+<map id="Player.FixedUpdate" name="Player.FixedUpdate">
+<area shape="rect" id="node1" title="Handle player movements." alt="" coords="5,5,140,31"/>
+<area shape="rect" id="node2" href="$classPlayer.html#a583ab350be12a61e2612e925e51ad93d" title="Calculate player movements." alt="" coords="188,5,347,31"/>
+</map>

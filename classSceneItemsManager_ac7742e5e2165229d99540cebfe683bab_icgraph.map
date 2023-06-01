@@ -1,0 +1,4 @@
+<map id="SceneItemsManager.ISaveableDeregister" name="SceneItemsManager.ISaveableDeregister">
+<area shape="rect" id="node1" title="Removing the current game object to iSaveableObjectList instance in SaveLoadManager" alt="" coords="259,5,461,45"/>
+<area shape="rect" id="node2" href="$classSceneItemsManager.html#ac46e5d4825fbe66ea21f0ff9feb3dc64" title="Calls ISaveableDeregister Unsubscribe from AfterSceneLoad" alt="" coords="5,13,211,38"/>
+</map>

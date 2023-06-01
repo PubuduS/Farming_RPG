@@ -1,0 +1,4 @@
+<map id="MovementAnimationParameterControl.OnDisable" name="MovementAnimationParameterControl.OnDisable">
+<area shape="rect" id="node1" title="When an object is disable, we unsubscrib from animations" alt="" coords="5,5,207,45"/>
+<area shape="rect" id="node2" href="$classMovementAnimationParameterControl.html#ad5c8e4e400c8599b554d24410da83556" title="We take the parameters and trigger appopriate animations." alt="" coords="255,5,465,45"/>
+</map>

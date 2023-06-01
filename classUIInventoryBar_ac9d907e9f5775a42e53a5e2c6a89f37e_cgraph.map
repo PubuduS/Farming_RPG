@@ -1,0 +1,4 @@
+<map id="UIInventoryBar.Update" name="UIInventoryBar.Update">
+<area shape="rect" id="node1" title="Switch inventory bar position depending on player position" alt="" coords="5,13,160,38"/>
+<area shape="rect" id="node2" href="$classUIInventoryBar.html#a92b25863cba9d40cad0313bf0741c131" title="When player move to the bottom we switch our inventory to the top to avoid player been obscured." alt="" coords="208,5,413,45"/>
+</map>

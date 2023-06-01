@@ -1,0 +1,5 @@
+<map id="GridPropertiesManager" name="GridPropertiesManager">
+<area shape="rect" id="node1" title="This will get the information from serialiable object and populate these class Basically this will st..." alt="" coords="47,211,375,793"/>
+<area shape="rect" id="node2" href="$classSingletonMonobehaviour.html" title=" " alt="" coords="5,35,183,133"/>
+<area shape="rect" id="node3" href="$interfaceISaveable.html" title="Interface for unity ISaveable" alt="" coords="207,5,450,163"/>
+</map>

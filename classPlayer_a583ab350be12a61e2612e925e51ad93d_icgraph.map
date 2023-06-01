@@ -1,0 +1,4 @@
+<map id="Player.PlayerMovement" name="Player.PlayerMovement">
+<area shape="rect" id="node1" title="Calculate player movements." alt="" coords="188,5,347,31"/>
+<area shape="rect" id="node2" href="$classPlayer.html#aa0458562e3da0655ecb39a0031114335" title="Handle player movements." alt="" coords="5,5,140,31"/>
+</map>

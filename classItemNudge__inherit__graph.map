@@ -1,0 +1,4 @@
+<map id="ItemNudge" name="ItemNudge">
+<area shape="rect" id="node1" title="Create a class that create nudge effect on grass and some other items. When player get near items,..." alt="" coords="5,93,209,265"/>
+<area shape="rect" id="node2" title=" " alt="" coords="49,5,165,45"/>
+</map>

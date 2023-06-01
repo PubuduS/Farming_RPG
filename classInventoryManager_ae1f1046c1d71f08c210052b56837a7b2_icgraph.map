@@ -1,0 +1,4 @@
+<map id="InventoryManager.GetItemDetails" name="InventoryManager.GetItemDetails">
+<area shape="rect" id="node1" title="Returns the itemDetails (from the SOItemList) for the itemCode, or null if the item code doesn&#39;t exis..." alt="" coords="253,5,428,45"/>
+<area shape="rect" id="node2" href="$classInventoryManager.html#afad4dbddc45eb0ca80aa1095c186a354" title="Returns the item details (From the So_ItemList) of the currently selected item." alt="" coords="5,5,205,45"/>
+</map>

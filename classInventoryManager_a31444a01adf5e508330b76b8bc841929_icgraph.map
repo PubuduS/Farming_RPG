@@ -1,0 +1,4 @@
+<map id="InventoryManager.GetSelectedInventoryItem" name="InventoryManager.GetSelectedInventoryItem">
+<area shape="rect" id="node1" title="Get the selected item for inventoryLocation" alt="" coords="253,5,453,45"/>
+<area shape="rect" id="node2" href="$classInventoryManager.html#afad4dbddc45eb0ca80aa1095c186a354" title="Returns the item details (From the So_ItemList) of the currently selected item." alt="" coords="5,5,205,45"/>
+</map>

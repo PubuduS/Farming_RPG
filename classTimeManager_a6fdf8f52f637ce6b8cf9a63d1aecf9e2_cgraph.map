@@ -1,0 +1,4 @@
+<map id="TimeManager.Start" name="TimeManager.Start">
+<area shape="rect" id="node1" title="Call minute event" alt="" coords="5,13,137,38"/>
+<area shape="rect" id="node2" href="$classEventHandler.html#a26e4a5b4c422ea8655bf42af4fa21fa2" title="Call the event AdvanceGameMinuteEvent" alt="" coords="185,5,361,45"/>
+</map>

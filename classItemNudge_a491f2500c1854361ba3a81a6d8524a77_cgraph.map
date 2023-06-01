@@ -1,0 +1,5 @@
+<map id="ItemNudge.OnTriggerExit2D" name="ItemNudge.OnTriggerExit2D">
+<area shape="rect" id="node1" title="Detect and starts coroutines when player exit from the collider that this bject is attached to" alt="" coords="5,31,188,56"/>
+<area shape="rect" id="node2" href="$classItemNudge.html#a41cf15a5113f2d0978363e782b24233e" title="Rotate the gameObject anti clock wise. We rotate it by 2 in 4 steps Then we rotate it in the opposite..." alt="" coords="236,5,419,31"/>
+<area shape="rect" id="node3" href="$classItemNudge.html#af56ef6783855e99fc07bf418c4582c09" title="Rotate the gameObject clock wise. We rotate it by 2 in 4 steps Then we rotate it in the opposite dire..." alt="" coords="247,55,407,80"/>
+</map>

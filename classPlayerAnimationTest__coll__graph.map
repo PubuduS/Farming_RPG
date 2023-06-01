@@ -1,0 +1,4 @@
+<map id="PlayerAnimationTest" name="PlayerAnimationTest">
+<area shape="rect" id="node1" title="This is just a test script to trigger and test animations." alt="" coords="5,93,184,309"/>
+<area shape="rect" id="node2" title=" " alt="" coords="37,5,153,45"/>
+</map>

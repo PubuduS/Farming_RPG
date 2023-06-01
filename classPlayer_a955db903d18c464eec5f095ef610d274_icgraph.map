@@ -1,0 +1,4 @@
+<map id="Player.PlayerMovementInput" name="Player.PlayerMovementInput">
+<area shape="rect" id="node1" title="Handle player inputs and normalized that." alt="" coords="156,5,343,31"/>
+<area shape="rect" id="node2" href="$classPlayer.html#aace80372e18e32fe177e295fe5d93ba8" title="Handle movement inputs and publish animation events." alt="" coords="5,5,108,31"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="SceneItemsManager.AfterSceneLoad" name="SceneItemsManager.AfterSceneLoad">
+<area shape="rect" id="node1" title="Find the game object of the parent" alt="" coords="259,31,497,56"/>
+<area shape="rect" id="node2" href="$classSceneItemsManager.html#ac46e5d4825fbe66ea21f0ff9feb3dc64" title="Calls ISaveableDeregister Unsubscribe from AfterSceneLoad" alt="" coords="5,5,211,31"/>
+<area shape="rect" id="node3" href="$classSceneItemsManager.html#af982e1c8efbc44ac58d0848803d7725d" title="Calls ISaveableRegister Subscribe to AfterSceneLoad" alt="" coords="7,55,209,80"/>
+</map>

@@ -1,0 +1,13 @@
+<map id="UIInventoryBar" name="UIInventoryBar">
+<area shape="rect" id="node1" title=" " alt="" coords="5,205,229,626"/>
+<area shape="rect" id="node3" href="$classUIInventorySlot.html" title=" " alt="" coords="682,799,905,1396"/>
+<area shape="rect" id="node2" title=" " alt="" coords="209,5,325,45"/>
+<area shape="rect" id="node11" href="$classGridCursor.html" title=" " alt="" coords="305,95,559,736"/>
+<area shape="rect" id="node4" title=" " alt="" coords="583,395,718,435"/>
+<area shape="rect" id="node5" title=" " alt="" coords="742,395,845,435"/>
+<area shape="rect" id="node6" title=" " alt="" coords="869,395,993,435"/>
+<area shape="rect" id="node7" title=" " alt="" coords="1017,395,1164,435"/>
+<area shape="rect" id="node8" title=" " alt="" coords="1189,395,1326,435"/>
+<area shape="rect" id="node9" title=" " alt="" coords="1350,395,1495,435"/>
+<area shape="rect" id="node10" href="$classItemDetails.html" title="This class holds information of items." alt="" coords="1519,307,1726,523"/>
+</map>

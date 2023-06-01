@@ -1,0 +1,5 @@
+<map id="UIInventorySlot.SetSelectedItem" name="UIInventorySlot.SetSelectedItem">
+<area shape="rect" id="node1" title="Sets this inventory slot item to be selected" alt="" coords="245,35,457,60"/>
+<area shape="rect" id="node2" href="$classUIInventorySlot.html#a3c8a04e977f6256bfff90709a65f73b4" title="Begin executing when we start to dran an item from the inventory bar" alt="" coords="5,5,197,31"/>
+<area shape="rect" id="node3" href="$classUIInventorySlot.html#a1af3891078ee83218ebafa2ae4d6a6d1" title="If we click an item in the inventory set it or clear it another is already selected." alt="" coords="15,55,188,95"/>
+</map>

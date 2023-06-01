@@ -1,0 +1,4 @@
+<map id="GridPropertiesManager.ISaveableDeregister" name="GridPropertiesManager.ISaveableDeregister">
+<area shape="rect" id="node1" title="Remove the iSaveableObjectList" alt="" coords="228,5,444,45"/>
+<area shape="rect" id="node2" href="$classGridPropertiesManager.html#a63bf1cce796070b139a450cb3bd619ff" title="Call ISaveableDeregister to remove the iSaveableObjectList Unsubscribe from after scene loaded event." alt="" coords="5,5,180,45"/>
+</map>

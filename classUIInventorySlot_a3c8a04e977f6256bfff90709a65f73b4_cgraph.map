@@ -1,0 +1,8 @@
+<map id="UIInventorySlot.OnBeginDrag" name="UIInventorySlot.OnBeginDrag">
+<area shape="rect" id="node1" title="Begin executing when we start to dran an item from the inventory bar" alt="" coords="5,95,197,121"/>
+<area shape="rect" id="node2" href="$classUIInventorySlot.html#ad1220fec0ee105c9cb2b938beeda9944" title="Sets this inventory slot item to be selected" alt="" coords="245,95,457,121"/>
+<area shape="rect" id="node3" href="$classUIInventoryBar.html#a38dc181fcc6d541b7ef1ab428f817936" title="Clear all highlights from the inventory bar." alt="" coords="507,5,701,45"/>
+<area shape="rect" id="node4" href="$classGridCursor.html#aa73d034114b1707e5437247823e9e5f1" title="Disable the cursor." alt="" coords="520,70,688,95"/>
+<area shape="rect" id="node5" href="$classGridCursor.html#ad8001b6b4041c37eaa5dc31aa0196630" title="Enable the cursor." alt="" coords="522,119,686,145"/>
+<area shape="rect" id="node6" href="$classUIInventoryBar.html#afcb9e39819d145a7fcaa096cda59d146" title="Set the selected highlight if set on all inventory item position" alt="" coords="505,193,703,233"/>
+</map>

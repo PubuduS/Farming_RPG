@@ -1,0 +1,4 @@
+<map id="SwitchConfineBoundingShape.OnDisable" name="SwitchConfineBoundingShape.OnDisable">
+<area shape="rect" id="node1" title="Unsubscribe from the AfterSceneLoadEvent event." alt="" coords="5,5,204,45"/>
+<area shape="rect" id="node2" href="$classSwitchConfineBoundingShape.html#a4460f2ce4aca5b55384ee14c7af59fc0" title="Switch the collider that cinemachine uses to define the edges of the screen." alt="" coords="252,5,451,45"/>
+</map>

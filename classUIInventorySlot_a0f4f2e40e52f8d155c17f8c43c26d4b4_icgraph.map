@@ -1,0 +1,5 @@
+<map id="UIInventorySlot.DestroyInventoryTextBox" name="UIInventorySlot.DestroyInventoryTextBox">
+<area shape="rect" id="node1" title="Destroy gameobject when we hover away from the inventory slot." alt="" coords="248,23,460,63"/>
+<area shape="rect" id="node2" href="$classUIInventorySlot.html#ab58c8a35db77c7b63c3905ed9e1ffc4f" title="If item is droppable, drop the item otherwise destroy it." alt="" coords="12,5,193,31"/>
+<area shape="rect" id="node3" href="$classUIInventorySlot.html#a3c17df631aaa9b37e6d48e1c95104a1d" title="Call the function to destroy the gameobject. Once we hover away from the inventory slot,..." alt="" coords="5,55,200,80"/>
+</map>

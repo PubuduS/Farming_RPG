@@ -1,0 +1,6 @@
+<map id="SceneControllerManager.Start" name="SceneControllerManager.Start">
+<area shape="rect" id="node1" title="Load the starting scene" alt="" coords="5,70,200,95"/>
+<area shape="rect" id="node2" href="$classEventHandler.html#a0205a45ebc8885561d782a09501ea379" title="Call after scene load event" alt="" coords="251,5,441,45"/>
+<area shape="rect" id="node3" href="$classSceneControllerManager.html#a9817d05d7639f2e854704bbfdfc98e0d" title="Handle the fade in blocking and unblocking inputs." alt="" coords="248,70,444,95"/>
+<area shape="rect" id="node4" href="$classSceneControllerManager.html#aaabed816f80d3de5a7aa52bf90553b6c" title="Load the scene and the activate it. Basically, we are additing our new scene to the Persistent scene." alt="" coords="248,120,444,160"/>
+</map>

@@ -1,0 +1,3 @@
+<map id="Vector3Serializable" name="Vector3Serializable">
+<area shape="rect" id="node1" title="Unity Vector3 data type is NOT serializable. Therefore, it can&#39;t be searilize and saved to a datafile..." alt="" coords="5,5,160,133"/>
+</map>

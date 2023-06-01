@@ -1,0 +1,4 @@
+<map id="Player.ShowCarriedItem" name="Player.ShowCarriedItem">
+<area shape="rect" id="node1" title="Show the carried item." alt="" coords="5,13,167,38"/>
+<area shape="rect" id="node2" href="$classAnimationOverrides.html#af3fb61465f611cd983018def00f68c48" title="Handles the animation overrides" alt="" coords="215,5,443,45"/>
+</map>

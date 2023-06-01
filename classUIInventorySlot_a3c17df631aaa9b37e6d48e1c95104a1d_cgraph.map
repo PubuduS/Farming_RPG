@@ -1,0 +1,4 @@
+<map id="UIInventorySlot.OnPointerExit" name="UIInventorySlot.OnPointerExit">
+<area shape="rect" id="node1" title="Call the function to destroy the gameobject. Once we hover away from the inventory slot,..." alt="" coords="5,13,200,38"/>
+<area shape="rect" id="node2" href="$classUIInventorySlot.html#a0f4f2e40e52f8d155c17f8c43c26d4b4" title="Destroy gameobject when we hover away from the inventory slot." alt="" coords="248,5,460,45"/>
+</map>

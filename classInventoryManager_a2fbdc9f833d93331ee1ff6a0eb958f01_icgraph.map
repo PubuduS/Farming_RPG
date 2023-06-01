@@ -1,0 +1,4 @@
+<map id="InventoryManager.RemoveItemAtPosition" name="InventoryManager.RemoveItemAtPosition">
+<area shape="rect" id="node1" title="Remove an item from a specific position" alt="" coords="256,5,459,45"/>
+<area shape="rect" id="node2" href="$classInventoryManager.html#a4e7e026c21be299c10873f49baf7efd9" title="Remove an item from the inventory, and create a gameobject at the position it was dropped" alt="" coords="5,13,208,38"/>
+</map>

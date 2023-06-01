@@ -1,0 +1,4 @@
+<map id="Player.DisablePlayerInput" name="Player.DisablePlayerInput">
+<area shape="rect" id="node1" title="Disable Player Input" alt="" coords="223,13,392,38"/>
+<area shape="rect" id="node2" href="$classPlayer.html#a2be14812e8c12d97c2c5762456f96b52" title="Disable input and reset movement." alt="" coords="5,5,175,45"/>
+</map>

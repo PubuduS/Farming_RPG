@@ -1,0 +1,7 @@
+<map id="Player.ProcessPlayerClickInput" name="Player.ProcessPlayerClickInput">
+<area shape="rect" id="node1" title=" " alt="" coords="5,69,180,109"/>
+<area shape="rect" id="node2" href="$classPlayer.html#a533495eb88b10fd0213c59abbe3d16a1" title="Check the position is valid and the item can be dropped for commodity." alt="" coords="228,5,403,45"/>
+<area shape="rect" id="node4" href="$classPlayer.html#a925558fc0f5aee3a2386ede5b31939e5" title="Check the position is valid and the item can be dropped for seed." alt="" coords="228,69,403,109"/>
+<area shape="rect" id="node5" href="$classPlayer.html#ac1f3fd232536545edefb4e09415d29bb" title="Reset Movement" alt="" coords="237,134,393,159"/>
+<area shape="rect" id="node3" href="$classEventHandler.html#aefecf1b5d6a1600a3330ff67d3b1d95d" title=" " alt="" coords="451,37,653,77"/>
+</map>

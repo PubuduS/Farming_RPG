@@ -1,0 +1,4 @@
+<map id="InventoryManager.SwapInventoryItems" name="InventoryManager.SwapInventoryItems">
+<area shape="rect" id="node1" title="Swap item at fromItem index with item at toItem index in inventoryLocation inventory list." alt="" coords="5,5,220,45"/>
+<area shape="rect" id="node2" href="$classEventHandler.html#a660b0704f655eb40b53f90c1da826078" title="Update the event" alt="" coords="268,5,447,45"/>
+</map>

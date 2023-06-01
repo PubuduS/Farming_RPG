@@ -1,0 +1,9 @@
+<map id="UIInventorySlot.OnEnable" name="UIInventorySlot.OnEnable">
+<area shape="rect" id="node1" title="Subscribe to the AfterSceneLoadEvent event." alt="" coords="5,64,176,89"/>
+<area shape="rect" id="node2" href="$classUIInventorySlot.html#a215fcdc6f1f503a097685e74a269068a" title="Drop the item (if selected) at the current mouse position. Called by drop item event" alt="" coords="225,27,418,67"/>
+<area shape="rect" id="node7" href="$classUIInventorySlot.html#a6b03d93ba1a111e4593f1baf9df4dc1e" title="When we add a new scene, we lost the previous game object and therefore need to find it again...." alt="" coords="224,92,419,117"/>
+<area shape="rect" id="node3" href="$classUIInventorySlot.html#ae017f2f2dc24022ade7cdf691caa1850" title="Clear currently highlighted items" alt="" coords="467,35,689,60"/>
+<area shape="rect" id="node4" href="$classUIInventorySlot.html#a2a88fdafc17827602f5314fb3720d393" title="Disable the cursor and change item type to none." alt="" coords="739,5,929,31"/>
+<area shape="rect" id="node6" href="$classUIInventoryBar.html#a38dc181fcc6d541b7ef1ab428f817936" title="Clear all highlights from the inventory bar." alt="" coords="737,55,931,95"/>
+<area shape="rect" id="node5" href="$classGridCursor.html#aa73d034114b1707e5437247823e9e5f1" title="Disable the cursor." alt="" coords="979,5,1147,31"/>
+</map>

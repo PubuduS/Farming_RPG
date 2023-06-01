@@ -1,0 +1,4 @@
+<map id="UIInventoryTextBox.SetTextBoxText" name="UIInventoryTextBox.SetTextBoxText">
+<area shape="rect" id="node1" title="Set Text Values" alt="" coords="227,5,411,45"/>
+<area shape="rect" id="node2" href="$classUIInventorySlot.html#aa413451c69ea95894f8c75136f20e26f" title="Populate TextBox with item details." alt="" coords="5,5,179,45"/>
+</map>

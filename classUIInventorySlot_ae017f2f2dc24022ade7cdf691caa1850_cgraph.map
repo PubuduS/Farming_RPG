@@ -1,0 +1,6 @@
+<map id="UIInventorySlot.ClearSelectedItem" name="UIInventorySlot.ClearSelectedItem">
+<area shape="rect" id="node1" title="Clear currently highlighted items" alt="" coords="5,35,228,60"/>
+<area shape="rect" id="node2" href="$classUIInventorySlot.html#a2a88fdafc17827602f5314fb3720d393" title="Disable the cursor and change item type to none." alt="" coords="277,5,468,31"/>
+<area shape="rect" id="node4" href="$classUIInventoryBar.html#a38dc181fcc6d541b7ef1ab428f817936" title="Clear all highlights from the inventory bar." alt="" coords="276,55,469,95"/>
+<area shape="rect" id="node3" href="$classGridCursor.html#aa73d034114b1707e5437247823e9e5f1" title="Disable the cursor." alt="" coords="517,5,685,31"/>
+</map>

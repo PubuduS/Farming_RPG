@@ -1,0 +1,5 @@
+<map id="SceneItemsManager.OnEnable" name="SceneItemsManager.OnEnable">
+<area shape="rect" id="node1" title="Calls ISaveableRegister Subscribe to AfterSceneLoad" alt="" coords="5,35,207,60"/>
+<area shape="rect" id="node2" href="$classSceneItemsManager.html#a9d69d4c9cbc46e7dc8583fac4d6bbc67" title="Find the game object of the parent" alt="" coords="255,5,493,31"/>
+<area shape="rect" id="node3" href="$classSceneItemsManager.html#a35e52e7967367e677c72a4ffb4349686" title="Adding the current game object to iSaveableObjectList instance in SaveLoadManager" alt="" coords="273,55,475,95"/>
+</map>

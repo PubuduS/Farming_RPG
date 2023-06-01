@@ -1,0 +1,8 @@
+<map id="UIInventorySlot.ClearSelectedItem" name="UIInventorySlot.ClearSelectedItem">
+<area shape="rect" id="node1" title="Clear currently highlighted items" alt="" coords="476,109,699,135"/>
+<area shape="rect" id="node2" href="$classUIInventorySlot.html#a215fcdc6f1f503a097685e74a269068a" title="Drop the item (if selected) at the current mouse position. Called by drop item event" alt="" coords="235,45,428,85"/>
+<area shape="rect" id="node5" href="$classUIInventorySlot.html#ab58c8a35db77c7b63c3905ed9e1ffc4f" title="If item is droppable, drop the item otherwise destroy it." alt="" coords="5,105,187,131"/>
+<area shape="rect" id="node6" href="$classUIInventorySlot.html#a1af3891078ee83218ebafa2ae4d6a6d1" title="If we click an item in the inventory set it or clear it another is already selected." alt="" coords="245,159,418,199"/>
+<area shape="rect" id="node3" href="$classUIInventorySlot.html#aa1e373f9a35ee239deaed3091a4e8a2a" title="Unsubscribe from the AfterSceneLoadEvent event." alt="" coords="9,5,183,31"/>
+<area shape="rect" id="node4" href="$classUIInventorySlot.html#ae79223fa203cb7a8aee486615a6b8204" title="Subscribe to the AfterSceneLoadEvent event." alt="" coords="11,55,181,80"/>
+</map>

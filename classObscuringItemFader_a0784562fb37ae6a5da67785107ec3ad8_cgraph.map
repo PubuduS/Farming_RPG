@@ -1,0 +1,4 @@
+<map id="ObscuringItemFader.FadeIn" name="ObscuringItemFader.FadeIn">
+<area shape="rect" id="node1" title="Start to fade in the object" alt="" coords="5,13,188,38"/>
+<area shape="rect" id="node2" href="$classObscuringItemFader.html#a73488d112cebf6aa59780a00f1c286d9" title="This coroutine will fade in alpha value at each keyframe." alt="" coords="236,5,419,45"/>
+</map>

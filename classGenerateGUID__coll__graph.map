@@ -1,0 +1,4 @@
+<map id="GenerateGUID" name="GenerateGUID">
+<area shape="rect" id="node1" title="Assign a unique GUID for the objects. These ids are used to retrive the gameobjects when restoring sc..." alt="" coords="6,93,121,177"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,5,121,45"/>
+</map>

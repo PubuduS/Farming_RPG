@@ -1,0 +1,4 @@
+<map id="Player.ClearCarriedItem" name="Player.ClearCarriedItem">
+<area shape="rect" id="node1" title="Clear the carry animation" alt="" coords="5,13,164,38"/>
+<area shape="rect" id="node2" href="$classAnimationOverrides.html#af3fb61465f611cd983018def00f68c48" title="Handles the animation overrides" alt="" coords="212,5,440,45"/>
+</map>

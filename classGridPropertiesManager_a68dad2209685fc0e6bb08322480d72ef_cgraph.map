@@ -1,0 +1,4 @@
+<map id="GridPropertiesManager.GetGridPropertyDetails" name="GridPropertiesManager.GetGridPropertyDetails">
+<area shape="rect" id="node1" title="Get the grid property details for the tile at (gridX, gridY). If no grid property details exist null ..." alt="" coords="5,5,184,45"/>
+<area shape="rect" id="node2" href="$classGridPropertiesManager.html#ae15a855a4b0266ed6a42175352e58043" title="Return thr grid property details at the gridLocation for the supplied dictionary, or null if not foun..." alt="" coords="232,5,411,45"/>
+</map>

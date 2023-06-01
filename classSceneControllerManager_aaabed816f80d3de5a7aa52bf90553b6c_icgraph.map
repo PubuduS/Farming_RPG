@@ -1,0 +1,6 @@
+<map id="SceneControllerManager.LoadSceneAndSetActive" name="SceneControllerManager.LoadSceneAndSetActive">
+<area shape="rect" id="node1" title="Load the scene and the activate it. Basically, we are additing our new scene to the Persistent scene." alt="" coords="493,35,689,75"/>
+<area shape="rect" id="node2" href="$classSceneControllerManager.html#ad4796ba296acb26b98f04b2d65c6a4e4" title="Handle fading, switching and unloading scenes." alt="" coords="249,5,445,45"/>
+<area shape="rect" id="node4" href="$classSceneControllerManager.html#a9c4ad89e75925ad536d52830e16f43f4" title="Load the starting scene" alt="" coords="250,70,445,95"/>
+<area shape="rect" id="node3" href="$classSceneControllerManager.html#a10b37c0bc898f99586819d295313707a" title="This is the main externam point of contact and influence from the rest of the project...." alt="" coords="5,5,201,45"/>
+</map>

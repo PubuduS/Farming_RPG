@@ -1,0 +1,3 @@
+<map id="UIInventoryBar.SetHighlightedInventorySlots" name="UIInventoryBar.SetHighlightedInventorySlots">
+<area shape="rect" id="node1" title="Set the selected highlight if set on all inventory item position" alt="" coords="5,29,203,69"/>
+</map>

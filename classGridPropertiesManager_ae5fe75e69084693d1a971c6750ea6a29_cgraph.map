@@ -1,0 +1,5 @@
+<map id="GridPropertiesManager.OnEnable" name="GridPropertiesManager.OnEnable">
+<area shape="rect" id="node1" title="Call ISaveableRegister to add the iSaveableObjectList Subscribe to after scene loaded event." alt="" coords="5,37,180,77"/>
+<area shape="rect" id="node2" href="$classGridPropertiesManager.html#ab9ce6adbf13f9297dbf59637a6bedae2" title="Get the Grid." alt="" coords="243,5,429,45"/>
+<area shape="rect" id="node3" href="$classGridPropertiesManager.html#a503d6bbdfab4a83a21ef8eb9911a67b4" title="Add the iSaveableObjectList" alt="" coords="228,69,444,109"/>
+</map>

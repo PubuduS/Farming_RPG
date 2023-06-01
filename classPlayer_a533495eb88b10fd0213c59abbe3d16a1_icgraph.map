@@ -1,0 +1,6 @@
+<map id="Player.ProcessPlayerClickInputCommodity" name="Player.ProcessPlayerClickInputCommodity">
+<area shape="rect" id="node1" title="Check the position is valid and the item can be dropped for commodity." alt="" coords="581,5,756,45"/>
+<area shape="rect" id="node2" href="$classPlayer.html#a80152f88168204addb91aaf173acc478" title=" " alt="" coords="359,5,533,45"/>
+<area shape="rect" id="node3" href="$classPlayer.html#acaacbd913f9d6a886d1afd72509914a5" title="If the grid cursor is enabled and player click left mouse button call ProcessPlayerClickInput()" alt="" coords="156,13,311,38"/>
+<area shape="rect" id="node4" href="$classPlayer.html#aace80372e18e32fe177e295fe5d93ba8" title="Handle movement inputs and publish animation events." alt="" coords="5,13,108,38"/>
+</map>

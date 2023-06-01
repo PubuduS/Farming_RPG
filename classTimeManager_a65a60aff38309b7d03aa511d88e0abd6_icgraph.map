@@ -1,0 +1,4 @@
+<map id="TimeManager.GameTick" name="TimeManager.GameTick">
+<area shape="rect" id="node1" title="Convert delta time to ingame seconds." alt="" coords="200,5,364,31"/>
+<area shape="rect" id="node2" href="$classTimeManager.html#a04aba992c1ecd11068caac4e5095920f" title="Start the ticking" alt="" coords="5,5,152,31"/>
+</map>

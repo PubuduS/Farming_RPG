@@ -1,0 +1,4 @@
+<map id="ObscuringItemFader.FadeOut" name="ObscuringItemFader.FadeOut">
+<area shape="rect" id="node1" title="Start to fade out the object" alt="" coords="236,13,429,38"/>
+<area shape="rect" id="node2" href="$classTriggerObscuringItemFader.html#a2d8309626fc7d403341e8e35a61d00de" title="Get the gameobject we have collided with, and then get all the obscuring item fader components on it ..." alt="" coords="5,5,188,45"/>
+</map>

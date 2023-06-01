@@ -1,0 +1,5 @@
+<map id="SceneItemsManager.OnDisable" name="SceneItemsManager.OnDisable">
+<area shape="rect" id="node1" title="Calls ISaveableDeregister Unsubscribe from AfterSceneLoad" alt="" coords="5,35,211,60"/>
+<area shape="rect" id="node2" href="$classSceneItemsManager.html#a9d69d4c9cbc46e7dc8583fac4d6bbc67" title="Find the game object of the parent" alt="" coords="259,5,497,31"/>
+<area shape="rect" id="node3" href="$classSceneItemsManager.html#ac7742e5e2165229d99540cebfe683bab" title="Removing the current game object to iSaveableObjectList instance in SaveLoadManager" alt="" coords="277,55,479,95"/>
+</map>

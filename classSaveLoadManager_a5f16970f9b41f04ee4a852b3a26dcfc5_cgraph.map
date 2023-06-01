@@ -1,0 +1,4 @@
+<map id="SaveLoadManager.StoreCurrentSceneData" name="SaveLoadManager.StoreCurrentSceneData">
+<area shape="rect" id="node1" title="Loop through all ISaveable objects and trigger store scene data for each" alt="" coords="5,5,212,45"/>
+<area shape="rect" id="node2" href="$interfaceISaveable.html#a967d2c21daf0bb96a6c7dda5e99ee85c" title=" " alt="" coords="260,5,432,45"/>
+</map>

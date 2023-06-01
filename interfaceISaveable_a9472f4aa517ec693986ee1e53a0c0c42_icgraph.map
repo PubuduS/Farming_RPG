@@ -1,0 +1,4 @@
+<map id="ISaveable.ISaveableRestoreScene" name="ISaveable.ISaveableRestoreScene">
+<area shape="rect" id="node1" title=" " alt="" coords="275,5,461,45"/>
+<area shape="rect" id="node2" href="$classSaveLoadManager.html#a87c7b7f7ec485f68ea66d01279e4df75" title="Loop through all ISaveable objects and trigger restore scene data for each" alt="" coords="5,5,227,45"/>
+</map>

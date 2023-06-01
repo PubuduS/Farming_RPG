@@ -1,0 +1,6 @@
+<map id="TilemapGridProperties" name="TilemapGridProperties">
+<area shape="rect" id="node1" title="This script by default will execute on both editor and runtime." alt="" coords="25,300,214,443"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,146,121,186"/>
+<area shape="rect" id="node3" href="$classSO__GridProperties.html" title="This ScriptableObject object asset will contain all the information of each scene." alt="" coords="145,95,347,237"/>
+<area shape="rect" id="node4" title=" " alt="" coords="185,5,307,45"/>
+</map>

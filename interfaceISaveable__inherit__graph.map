@@ -1,0 +1,5 @@
+<map id="ISaveable" name="ISaveable">
+<area shape="rect" id="node1" title="Interface for unity ISaveable" alt="" coords="205,5,448,163"/>
+<area shape="rect" id="node2" href="$classGridPropertiesManager.html" title="This will get the information from serialiable object and populate these class Basically this will st..." alt="" coords="5,211,333,793"/>
+<area shape="rect" id="node3" href="$classSceneItemsManager.html" title="Control store, restore, save and load functionality in the scene." alt="" coords="357,321,613,683"/>
+</map>

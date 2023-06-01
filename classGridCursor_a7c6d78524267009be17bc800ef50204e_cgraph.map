@@ -1,0 +1,12 @@
+<map id="GridCursor.Update" name="GridCursor.Update">
+<area shape="rect" id="node1" title="Call display cursor function at every frame." alt="" coords="5,109,135,134"/>
+<area shape="rect" id="node2" href="$classGridCursor.html#a5d3a561e01ef608c8453e3f18f44d2fb" title="Display the cursor which marked valid and invalid drop locations." alt="" coords="183,109,349,134"/>
+<area shape="rect" id="node3" href="$classGridCursor.html#a57f3493bcdd3f44810693facbeb885a2" title="Return the position of the cursor." alt="" coords="405,5,584,45"/>
+<area shape="rect" id="node4" href="$classGridCursor.html#af17f5e72a545b8aceff3c493bcc6d803" title="Return the grid position of the player." alt="" coords="405,69,584,109"/>
+<area shape="rect" id="node5" href="$classGridCursor.html#a54e60d31927f24189bdd246ca0f002fd" title="Transfor the UI Items on canvas to pixel positions." alt="" coords="397,133,592,173"/>
+<area shape="rect" id="node6" href="$classGridCursor.html#a4e4081329add8a818c3c2773ad0c89cd" title="Check series of checks to determine validity of the cursor location. Based on the validity set the cu..." alt="" coords="401,198,588,223"/>
+<area shape="rect" id="node7" href="$classGridCursor.html#aad5a99decd5fa4aff90925ceb2960219" title="Test cursor validity for a commodity for the target gridPropertyDetails." alt="" coords="657,97,822,137"/>
+<area shape="rect" id="node8" href="$classGridCursor.html#a23bcb523eb23796a607f66d0e86a6b0c" title="Test cursor validity for a seed for the target gridPropertyDetails." alt="" coords="657,161,822,201"/>
+<area shape="rect" id="node9" href="$classGridCursor.html#ab0af035649e73216b7b0f069700f2e8a" title="Set the cursor to invalid." alt="" coords="640,226,839,251"/>
+<area shape="rect" id="node10" href="$classGridCursor.html#a6463e149eb518ddce1fba79f143e3aff" title="Set the cursor to valid." alt="" coords="645,275,834,301"/>
+</map>

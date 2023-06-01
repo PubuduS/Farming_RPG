@@ -1,0 +1,4 @@
+<map id="UIInventorySlot.ClearCursors" name="UIInventorySlot.ClearCursors">
+<area shape="rect" id="node1" title="Disable the cursor and change item type to none." alt="" coords="5,5,196,31"/>
+<area shape="rect" id="node2" href="$classGridCursor.html#aa73d034114b1707e5437247823e9e5f1" title="Disable the cursor." alt="" coords="244,5,412,31"/>
+</map>

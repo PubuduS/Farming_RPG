@@ -1,0 +1,4 @@
+<map id="UIInventorySlot.OnPointerEnter" name="UIInventorySlot.OnPointerEnter">
+<area shape="rect" id="node1" title="Populate TextBox with item details." alt="" coords="5,5,179,45"/>
+<area shape="rect" id="node2" href="$classUIInventoryTextBox.html#ab00acf3ed11f6e35e02378f3279e3cd6" title="Set Text Values" alt="" coords="227,5,411,45"/>
+</map>

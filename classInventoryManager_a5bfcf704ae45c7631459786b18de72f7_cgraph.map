@@ -1,0 +1,5 @@
+<map id="InventoryManager.Awake" name="InventoryManager.Awake">
+<area shape="rect" id="node1" title="Create item details dictionary Keep the original awake function in Singleton class and the override i..." alt="" coords="5,45,173,70"/>
+<area shape="rect" id="node2" href="$classInventoryManager.html#adedfb3bd5c0ca5cb970f7f85c5d743ba" title="Create Inventory Lists" alt="" coords="221,5,440,45"/>
+<area shape="rect" id="node3" href="$classInventoryManager.html#a358bf1581829260a23a27b7a11282d3b" title="Populates the itemDetailsDictionary from scriptable object item list." alt="" coords="235,69,427,109"/>
+</map>

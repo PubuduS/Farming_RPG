@@ -1,0 +1,6 @@
+<map id="EventHandler.CallMovementEvent" name="EventHandler.CallMovementEvent">
+<area shape="rect" id="node1" title="Movement Event Call For Publishers." alt="" coords="240,63,427,103"/>
+<area shape="rect" id="node2" href="$classPlayer.html#a2be14812e8c12d97c2c5762456f96b52" title="Disable input and reset movement." alt="" coords="14,5,183,45"/>
+<area shape="rect" id="node3" href="$classPlayer.html#aace80372e18e32fe177e295fe5d93ba8" title="Handle movement inputs and publish animation events." alt="" coords="47,70,150,95"/>
+<area shape="rect" id="node4" href="$classPlayerAnimationTest.html#af9edb68c877101f87805610d21149073" title=" " alt="" coords="5,119,192,145"/>
+</map>

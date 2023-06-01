@@ -1,0 +1,6 @@
+<map id="UIInventorySlot.DropSelectedItemAtMousePosition" name="UIInventorySlot.DropSelectedItemAtMousePosition">
+<area shape="rect" id="node1" title="Drop the item (if selected) at the current mouse position. Called by drop item event" alt="" coords="235,47,428,87"/>
+<area shape="rect" id="node2" href="$classUIInventorySlot.html#aa1e373f9a35ee239deaed3091a4e8a2a" title="Unsubscribe from the AfterSceneLoadEvent event." alt="" coords="9,5,183,31"/>
+<area shape="rect" id="node3" href="$classUIInventorySlot.html#ae79223fa203cb7a8aee486615a6b8204" title="Subscribe to the AfterSceneLoadEvent event." alt="" coords="11,55,181,80"/>
+<area shape="rect" id="node4" href="$classUIInventorySlot.html#ab58c8a35db77c7b63c3905ed9e1ffc4f" title="If item is droppable, drop the item otherwise destroy it." alt="" coords="5,104,187,129"/>
+</map>

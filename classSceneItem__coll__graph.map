@@ -1,0 +1,4 @@
+<map id="SceneItem" name="SceneItem">
+<area shape="rect" id="node1" title="We have scene item instances for every item in the scene that we want to store in a save file." alt="" coords="9,196,156,280"/>
+<area shape="rect" id="node2" href="$classVector3Serializable.html" title="Unity Vector3 data type is NOT serializable. Therefore, it can&#39;t be searilize and saved to a datafile..." alt="" coords="5,5,160,133"/>
+</map>

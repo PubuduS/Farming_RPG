@@ -1,0 +1,4 @@
+<map id="InventoryManager.AddItem" name="InventoryManager.AddItem">
+<area shape="rect" id="node1" title="Add an item to the inventory List for the inventory location" alt="" coords="231,5,408,31"/>
+<area shape="rect" id="node2" href="$classInventoryManager.html#a5f5ae221e3ba789d65fef0ca472491a5" title="Add an item to the inventory list for the inventoryLocation and then destroy the gameObjectToDelete" alt="" coords="5,5,183,31"/>
+</map>

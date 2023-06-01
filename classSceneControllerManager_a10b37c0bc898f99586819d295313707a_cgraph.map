@@ -1,0 +1,10 @@
+<map id="SceneControllerManager.FadeAndLoadScene" name="SceneControllerManager.FadeAndLoadScene">
+<area shape="rect" id="node1" title="This is the main externam point of contact and influence from the rest of the project...." alt="" coords="5,165,201,205"/>
+<area shape="rect" id="node2" href="$classSceneControllerManager.html#ad4796ba296acb26b98f04b2d65c6a4e4" title="Handle fading, switching and unloading scenes." alt="" coords="249,165,445,205"/>
+<area shape="rect" id="node3" href="$classEventHandler.html#a0205a45ebc8885561d782a09501ea379" title="Call after scene load event" alt="" coords="498,5,689,45"/>
+<area shape="rect" id="node4" href="$classEventHandler.html#afb1b19fcc2d66e5969b3952d9bb2a782" title="Call after scene load fade in event" alt="" coords="498,69,689,109"/>
+<area shape="rect" id="node5" href="$classEventHandler.html#a0ccaef75c3b37d3695e9f8ad02cb07e7" title="Call before scene unload event" alt="" coords="493,133,693,173"/>
+<area shape="rect" id="node6" href="$classEventHandler.html#aca6f32576caff1e4f48e89ce8620fe52" title="Call before scene unload, fade out event" alt="" coords="493,197,693,237"/>
+<area shape="rect" id="node7" href="$classSceneControllerManager.html#a9817d05d7639f2e854704bbfdfc98e0d" title="Handle the fade in blocking and unblocking inputs." alt="" coords="495,262,691,287"/>
+<area shape="rect" id="node8" href="$classSceneControllerManager.html#aaabed816f80d3de5a7aa52bf90553b6c" title="Load the scene and the activate it. Basically, we are additing our new scene to the Persistent scene." alt="" coords="495,312,691,352"/>
+</map>

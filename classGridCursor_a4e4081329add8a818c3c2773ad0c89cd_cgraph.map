@@ -1,0 +1,7 @@
+<map id="GridCursor.SetCursorValidity" name="GridCursor.SetCursorValidity">
+<area shape="rect" id="node1" title="Check series of checks to determine validity of the cursor location. Based on the validity set the cu..." alt="" coords="5,106,192,131"/>
+<area shape="rect" id="node2" href="$classGridCursor.html#aad5a99decd5fa4aff90925ceb2960219" title="Test cursor validity for a commodity for the target gridPropertyDetails." alt="" coords="257,5,422,45"/>
+<area shape="rect" id="node3" href="$classGridCursor.html#a23bcb523eb23796a607f66d0e86a6b0c" title="Test cursor validity for a seed for the target gridPropertyDetails." alt="" coords="257,69,422,109"/>
+<area shape="rect" id="node4" href="$classGridCursor.html#ab0af035649e73216b7b0f069700f2e8a" title="Set the cursor to invalid." alt="" coords="240,134,439,159"/>
+<area shape="rect" id="node5" href="$classGridCursor.html#a6463e149eb518ddce1fba79f143e3aff" title="Set the cursor to valid." alt="" coords="245,183,434,209"/>
+</map>

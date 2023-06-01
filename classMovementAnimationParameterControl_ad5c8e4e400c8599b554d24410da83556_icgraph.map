@@ -1,0 +1,5 @@
+<map id="MovementAnimationParameterControl.SetAnimationParameters" name="MovementAnimationParameterControl.SetAnimationParameters">
+<area shape="rect" id="node1" title="We take the parameters and trigger appopriate animations." alt="" coords="255,37,465,77"/>
+<area shape="rect" id="node2" href="$classMovementAnimationParameterControl.html#aa2a5dca0d1c58f0c8b56eccc11991815" title="When an object is disable, we unsubscrib from animations" alt="" coords="5,5,207,45"/>
+<area shape="rect" id="node3" href="$classMovementAnimationParameterControl.html#ab5477c6fb2cb975720076f34e69961f4" title="When an object is enabled, we subscribed to animations" alt="" coords="5,69,207,109"/>
+</map>

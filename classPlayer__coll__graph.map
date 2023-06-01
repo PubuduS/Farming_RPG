@@ -1,0 +1,10 @@
+<map id="Player" name="Player">
+<area shape="rect" id="node1" title="This class has all the things related to player" alt="" coords="345,1019,575,1601"/>
+<area shape="rect" id="node2" href="$classSingletonMonobehaviour.html" title=" " alt="" coords="5,571,173,670"/>
+<area shape="rect" id="node3" href="$classAnimationOverrides.html" title=" " alt="" coords="477,513,712,729"/>
+<area shape="rect" id="node4" title=" " alt="" coords="318,146,434,186"/>
+<area shape="rect" id="node7" href="$classGridCursor.html" title=" " alt="" coords="198,300,453,941"/>
+<area shape="rect" id="node5" href="$classSO__AnimationType.html" title="Create a scriptable animation type. This objects holds infomration about animation variants." alt="" coords="475,95,715,237"/>
+<area shape="rect" id="node6" title=" " alt="" coords="533,5,656,45"/>
+<area shape="rect" id="node8" href="$structCharacterAttribute.html" title="Define what character variant we want to switch into." alt="" coords="737,527,957,714"/>
+</map>

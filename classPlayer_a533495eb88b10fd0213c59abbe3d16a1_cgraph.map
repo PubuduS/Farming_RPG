@@ -1,0 +1,4 @@
+<map id="Player.ProcessPlayerClickInputCommodity" name="Player.ProcessPlayerClickInputCommodity">
+<area shape="rect" id="node1" title="Check the position is valid and the item can be dropped for commodity." alt="" coords="5,5,180,45"/>
+<area shape="rect" id="node2" href="$classEventHandler.html#aefecf1b5d6a1600a3330ff67d3b1d95d" title=" " alt="" coords="228,5,431,45"/>
+</map>

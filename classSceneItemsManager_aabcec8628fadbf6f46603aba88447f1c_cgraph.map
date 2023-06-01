@@ -1,0 +1,4 @@
+<map id="SceneItemsManager.InstantiateSceneItem" name="SceneItemsManager.InstantiateSceneItem">
+<area shape="rect" id="node1" title="For future. Use to instantiate a single SceneItem" alt="" coords="5,5,212,45"/>
+<area shape="rect" id="node2" href="$classItem.html#a067d4b2e9bb28485185e256e151a600a" title="At the start if we have a reapable item, we add the item nudge class." alt="" coords="260,13,329,38"/>
+</map>

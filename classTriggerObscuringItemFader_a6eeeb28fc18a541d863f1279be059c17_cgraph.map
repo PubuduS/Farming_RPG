@@ -1,0 +1,5 @@
+<map id="TriggerObscuringItemFader.OnTriggerExit2D" name="TriggerObscuringItemFader.OnTriggerExit2D">
+<area shape="rect" id="node1" title="Get the gameobject we have collided with, and then get all the obscuring item fader components on it ..." alt="" coords="5,5,188,45"/>
+<area shape="rect" id="node2" href="$classObscuringItemFader.html#a0784562fb37ae6a5da67785107ec3ad8" title="Start to fade in the object" alt="" coords="236,13,419,38"/>
+<area shape="rect" id="node3" href="$classObscuringItemFader.html#a73488d112cebf6aa59780a00f1c286d9" title="This coroutine will fade in alpha value at each keyframe." alt="" coords="467,5,649,45"/>
+</map>

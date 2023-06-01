@@ -1,0 +1,8 @@
+<map id="EventHandler.CallDropSelectedItemEvent" name="EventHandler.CallDropSelectedItemEvent">
+<area shape="rect" id="node1" title=" " alt="" coords="804,37,1007,77"/>
+<area shape="rect" id="node2" href="$classPlayer.html#a533495eb88b10fd0213c59abbe3d16a1" title="Check the position is valid and the item can be dropped for commodity." alt="" coords="581,5,756,45"/>
+<area shape="rect" id="node6" href="$classPlayer.html#a925558fc0f5aee3a2386ede5b31939e5" title="Check the position is valid and the item can be dropped for seed." alt="" coords="581,69,756,109"/>
+<area shape="rect" id="node3" href="$classPlayer.html#a80152f88168204addb91aaf173acc478" title=" " alt="" coords="359,37,533,77"/>
+<area shape="rect" id="node4" href="$classPlayer.html#acaacbd913f9d6a886d1afd72509914a5" title="If the grid cursor is enabled and player click left mouse button call ProcessPlayerClickInput()" alt="" coords="156,45,311,70"/>
+<area shape="rect" id="node5" href="$classPlayer.html#aace80372e18e32fe177e295fe5d93ba8" title="Handle movement inputs and publish animation events." alt="" coords="5,45,108,70"/>
+</map>

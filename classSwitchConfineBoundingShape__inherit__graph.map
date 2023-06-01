@@ -1,0 +1,4 @@
+<map id="SwitchConfineBoundingShape" name="SwitchConfineBoundingShape">
+<area shape="rect" id="node1" title="This class will confine the camera so that it won&#39;t go beyond the boundaries." alt="" coords="5,93,205,177"/>
+<area shape="rect" id="node2" title=" " alt="" coords="47,5,163,45"/>
+</map>
